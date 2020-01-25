@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>cod_fisc</class>
+ <widget class="QMainWindow" name="cod_fisc">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>846</width>
+    <height>454</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>846</width>
+    <height>454</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Codice fiscale</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="../fabaria.qrc">
+    <normaloff>:/images/codicefisc.png</normaloff>:/images/codicefisc.png</iconset>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout_2">
+    <item row="4" column="3">
+     <widget class="QPushButton" name="pushButtonCancella">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="text">
+       <string>Cancella</string>
+      </property>
+      <property name="icon">
+       <iconset resource="../fabaria.qrc">
+        <normaloff>:/images/edit-delete.png</normaloff>:/images/edit-delete.png</iconset>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="5">
+     <spacer name="horizontalSpacer_3">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>308</width>
+        <height>20</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item row="1" column="5">
+     <widget class="QGroupBox" name="groupBox_2">
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>20</height>
+       </size>
+      </property>
+      <property name="title">
+       <string>Visualizza anteprima codice fiscale</string>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_5"/>
+     </widget>
+    </item>
+    <item row="4" column="4">
+     <widget class="QPushButton" name="esci">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="text">
+       <string>Esci</string>
+      </property>
+      <property name="icon">
+       <iconset resource="../fabaria.qrc">
+        <normaloff>:/images/exit.png</normaloff>:/images/exit.png</iconset>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="0">
+     <spacer name="verticalSpacer_3">
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>20</width>
+        <height>40</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item row="4" column="2">
+     <widget class="QPushButton" name="pushButtonCalcola">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="text">
+       <string>Calcola</string>
+      </property>
+      <property name="icon">
+       <iconset resource="../fabaria.qrc">
+        <normaloff>:/images/codicefisc.png</normaloff>:/images/codicefisc.png</iconset>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="5">
+     <spacer name="verticalSpacer">
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>20</width>
+        <height>344</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item row="0" column="0" rowspan="4" colspan="5">
+     <widget class="QGroupBox" name="groupBox">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>418</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>418</width>
+        <height>16777215</height>
+       </size>
+      </property>
+      <property name="sizeIncrement">
+       <size>
+        <width>418</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="baseSize">
+       <size>
+        <width>418</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="title">
+       <string>Calcolo codice fiscale</string>
+      </property>
+      <layout class="QGridLayout" name="gridLayout">
+       <item row="0" column="0">
+        <widget class="QLabel" name="label">
+         <property name="text">
+          <string>Cognome</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QLabel" name="label_2">
+         <property name="text">
+          <string>Nome</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="0">
+        <widget class="QLabel" name="label_3">
+         <property name="text">
+          <string>Sesso</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="1">
+        <widget class="QRadioButton" name="radioButtonM">
+         <property name="text">
+          <string>M</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="2">
+        <widget class="QRadioButton" name="radioButtonF">
+         <property name="text">
+          <string>F</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="3">
+        <spacer name="horizontalSpacer">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>191</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item row="3" column="0">
+        <widget class="QLabel" name="label_7">
+         <property name="text">
+          <string>Seleziona </string>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="0">
+        <widget class="QLabel" name="label_6">
+         <property name="text">
+          <string>Comuni o Stato</string>
+         </property>
+        </widget>
+       </item>
+       <item row="5" column="0">
+        <widget class="QLabel" name="label_4">
+         <property name="text">
+          <string>Data di nascita</string>
+         </property>
+        </widget>
+       </item>
+       <item row="5" column="1" colspan="2">
+        <widget class="QDateEdit" name="calendarWidget">
+         <property name="wrapping">
+          <bool>false</bool>
+         </property>
+         <property name="frame">
+          <bool>true</bool>
+         </property>
+         <property name="displayFormat">
+          <string>dd/MM/yyyy</string>
+         </property>
+         <property name="calendarPopup">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="6" column="0">
+        <widget class="QLabel" name="label_5">
+         <property name="text">
+          <string>Codice Fiscale</string>
+         </property>
+        </widget>
+       </item>
+       <item row="7" column="1">
+        <spacer name="verticalSpacer_2">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>40</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item row="8" column="4">
+        <spacer name="horizontalSpacer_2">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item row="3" column="1" colspan="4">
+        <widget class="QComboBox" name="comboBox_sel"/>
+       </item>
+       <item row="1" column="1" colspan="4">
+        <widget class="QLineEdit" name="lineEditNome"/>
+       </item>
+       <item row="0" column="1" colspan="4">
+        <widget class="QLineEdit" name="lineEditCognome"/>
+       </item>
+       <item row="6" column="1" colspan="4">
+        <widget class="QLineEdit" name="lineEditCodiceFiscale">
+         <property name="palette">
+          <palette>
+           <active>
+            <colorrole role="Base">
+             <brush brushstyle="SolidPattern">
+              <color alpha="255">
+               <red>0</red>
+               <green>192</green>
+               <blue>0</blue>
+              </color>
+             </brush>
+            </colorrole>
+           </active>
+           <inactive>
+            <colorrole role="Base">
+             <brush brushstyle="SolidPattern">
+              <color alpha="255">
+               <red>0</red>
+               <green>192</green>
+               <blue>0</blue>
+              </color>
+             </brush>
+            </colorrole>
+           </inactive>
+           <disabled>
+            <colorrole role="Base">
+             <brush brushstyle="SolidPattern">
+              <color alpha="255">
+               <red>241</red>
+               <green>241</green>
+               <blue>241</blue>
+              </color>
+             </brush>
+            </colorrole>
+           </disabled>
+          </palette>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>12</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="readOnly">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="1" colspan="4">
+        <widget class="QComboBox" name="comboBoxComune">
+         <property name="editable">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>846</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <addaction name="actionStampa"/>
+    <addaction name="separator"/>
+    <addaction name="actionEsci"/>
+   </widget>
+   <widget class="QMenu" name="menuVisulizza">
+    <property name="title">
+     <string>Visualizza</string>
+    </property>
+    <addaction name="actionVisualizza_anteprima"/>
+   </widget>
+   <widget class="QMenu" name="menuEsporta">
+    <property name="title">
+     <string>Esporta</string>
+    </property>
+    <addaction name="actionEsporta_in_pdf"/>
+    <addaction name="actionEsporta_in_immagine"/>
+   </widget>
+   <addaction name="menuFile"/>
+   <addaction name="menuVisulizza"/>
+   <addaction name="menuEsporta"/>
+  </widget>
+  <widget class="QToolBar" name="toolBar">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <action name="actionEsci">
+   <property name="text">
+    <string>Esci</string>
+   </property>
+  </action>
+  <action name="actionVisualizza_anteprima">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Visualizza anteprima</string>
+   </property>
+  </action>
+  <action name="actionStampa">
+   <property name="text">
+    <string>Stampa</string>
+   </property>
+  </action>
+  <action name="actionAbout">
+   <property name="icon">
+    <iconset resource="../fabaria.qrc">
+     <normaloff>:/images/codicefisc.png</normaloff>:/images/codicefisc.png</iconset>
+   </property>
+   <property name="text">
+    <string>About</string>
+   </property>
+  </action>
+  <action name="actionEsporta_in_pdf">
+   <property name="text">
+    <string>Esporta in pdf</string>
+   </property>
+  </action>
+  <action name="actionEsporta_in_immagine">
+   <property name="text">
+    <string>Esporta in immagine</string>
+   </property>
+  </action>
+  <action name="actionVerifica_partita_iva">
+   <property name="icon">
+    <iconset resource="../fabaria.qrc">
+     <normaloff>:/images/iva.png</normaloff>:/images/iva.png</iconset>
+   </property>
+   <property name="text">
+    <string>Verifica partita iva</string>
+   </property>
+  </action>
+  <action name="actionVerifica_codice_fiscale">
+   <property name="icon">
+    <iconset>
+     <normaloff>:/images/codice_fiscale_logo.png</normaloff>:/images/codice_fiscale_logo.png</iconset>
+   </property>
+   <property name="text">
+    <string>Verifica codice fiscale</string>
+   </property>
+  </action>
+ </widget>
+ <tabstops>
+  <tabstop>lineEditCognome</tabstop>
+  <tabstop>lineEditNome</tabstop>
+  <tabstop>radioButtonM</tabstop>
+  <tabstop>radioButtonF</tabstop>
+  <tabstop>comboBox_sel</tabstop>
+  <tabstop>comboBoxComune</tabstop>
+  <tabstop>calendarWidget</tabstop>
+  <tabstop>lineEditCodiceFiscale</tabstop>
+  <tabstop>pushButtonCalcola</tabstop>
+  <tabstop>pushButtonCancella</tabstop>
+  <tabstop>esci</tabstop>
+ </tabstops>
+ <resources>
+  <include location="../fabaria.qrc"/>
+ </resources>
+ <connections/>
+</ui>

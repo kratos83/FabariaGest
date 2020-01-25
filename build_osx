@@ -1,0 +1,27 @@
+#!/bin/sh
+
+install_homebrew_if_not_present() {
+    echo "Cerco l’installazione di homebrew"
+    which -s brew
+    if [[ $? != 0 ]] ; then
+        echo "Homebrew non presente. Installazione…”
+        ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+    else
+        echo "Homebrew è installato! Aggiornamento…”
+        brew update
+    fi
+}
+    
+echo “Installo le librerie…”
+brew install liboauth nspr jansson zlib nss 
+echo “Installazione librerie completata…”
+
+echo "Compilazione fabariagest-1.2"
+cmake -DCMAKE_PREFIX_PATH=/Developer/Qt5.5.1/5.5/clang_64/
+
+export LIBRARY_PATH=/usr/local/lib
+#export LIBRARY_PATH=/usr/lib
+make
+
+cd fabaria
+macdeployqt fabaria_gest.app —qmldir=/Developer/Qt5.5.1/5.5/clang_64/qml/QtQuick* -dmg

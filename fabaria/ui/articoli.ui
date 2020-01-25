@@ -1,0 +1,687 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>articoli</class>
+ <widget class="QDialog" name="articoli">
+  <property name="windowModality">
+   <enum>Qt::WindowModal</enum>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1234</width>
+    <height>594</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Lista libri</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="../fabaria.qrc">
+    <normaloff>:/images/documentation.png</normaloff>:/images/documentation.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <property name="sizeGripEnabled">
+   <bool>false</bool>
+  </property>
+  <property name="modal">
+   <bool>false</bool>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_3">
+   <item row="1" column="0">
+    <widget class="QTabWidget" name="tabWidget">
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <widget class="QWidget" name="tab">
+      <attribute name="title">
+       <string>Inserisci articoli</string>
+      </attribute>
+      <layout class="QGridLayout" name="gridLayout_9">
+       <item row="0" column="1" colspan="2">
+        <widget class="QGroupBox" name="groupBox_3">
+         <layout class="QGridLayout" name="gridLayout">
+          <item row="0" column="0" colspan="2">
+           <widget class="barcode" name="groupBox_2">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>150</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true"/>
+            </property>
+            <property name="title">
+             <string/>
+            </property>
+            <layout class="QGridLayout" name="gridLayout_10"/>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <widget class="QGroupBox" name="groupBox_4">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="minimumSize">
+          <size>
+           <width>300</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>300</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="baseSize">
+          <size>
+           <width>300</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="title">
+          <string>Informazioni dettagliate</string>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_5">
+          <item row="0" column="0">
+           <widget class="QTextEdit" name="dettagli"/>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="0" column="0" rowspan="2">
+        <widget class="QGroupBox" name="groupBox">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <property name="flat">
+          <bool>false</bool>
+         </property>
+         <property name="checkable">
+          <bool>false</bool>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_2">
+          <item row="4" column="1" colspan="10">
+           <widget class="QComboBox" name="categ">
+            <property name="editable">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item row="14" column="9">
+           <widget class="QLineEdit" name="totale">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Minimum">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+           </widget>
+          </item>
+          <item row="12" column="9">
+           <widget class="QLineEdit" name="p_c_iva">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Minimum">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+           </widget>
+          </item>
+          <item row="6" column="0">
+           <widget class="QLabel" name="label_14">
+            <property name="text">
+             <string>UM</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1" colspan="2">
+           <widget class="QLineEdit" name="cod_art">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Minimum">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color:rgb(255, 255, 127)</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="6" colspan="2">
+           <widget class="QLabel" name="label_2">
+            <property name="text">
+             <string>Prodotto</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="0">
+           <widget class="QLabel" name="label_15">
+            <property name="text">
+             <string>BarCode</string>
+            </property>
+           </widget>
+          </item>
+          <item row="10" column="3">
+           <widget class="QPushButton" name="m_iva">
+            <property name="text">
+             <string/>
+            </property>
+            <property name="icon">
+             <iconset resource="../fabaria.qrc">
+              <normaloff>:/images/iva.png</normaloff>:/images/iva.png</iconset>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="8" colspan="3">
+           <widget class="QLineEdit" name="art_nom">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Minimum">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="0" colspan="11">
+           <widget class="Line" name="line">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+           </widget>
+          </item>
+          <item row="6" column="9" colspan="2">
+           <widget class="QLineEdit" name="prezzo_unitario"/>
+          </item>
+          <item row="5" column="0">
+           <widget class="QLabel" name="label_17">
+            <property name="text">
+             <string>Listino</string>
+            </property>
+           </widget>
+          </item>
+          <item row="11" column="0" colspan="11">
+           <widget class="Line" name="line_3">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="1" colspan="10">
+           <widget class="QTextEdit" name="descrizione">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+              <horstretch>0</horstretch>
+              <verstretch>10</verstretch>
+             </sizepolicy>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="0">
+           <widget class="QLabel" name="label">
+            <property name="text">
+             <string>Cod.Prodotto</string>
+            </property>
+           </widget>
+          </item>
+          <item row="15" column="7">
+           <widget class="QLabel" name="label_lotto">
+            <property name="text">
+             <string>Scadenza lotto</string>
+            </property>
+           </widget>
+          </item>
+          <item row="6" column="7">
+           <widget class="QLabel" name="label_13">
+            <property name="text">
+             <string>Prezzo unitario</string>
+            </property>
+           </widget>
+          </item>
+          <item row="14" column="6" colspan="2">
+           <widget class="QLabel" name="label_12">
+            <property name="text">
+             <string>Totale</string>
+            </property>
+           </widget>
+          </item>
+          <item row="12" column="1" colspan="3">
+           <widget class="QLineEdit" name="p_s_iva">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Minimum">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+           </widget>
+          </item>
+          <item row="6" column="3">
+           <widget class="QPushButton" name="m_misura">
+            <property name="text">
+             <string/>
+            </property>
+            <property name="icon">
+             <iconset resource="../fabaria.qrc">
+              <normaloff>:/images/pacco.png</normaloff>:/images/pacco.png</iconset>
+            </property>
+           </widget>
+          </item>
+          <item row="15" column="0">
+           <widget class="QLabel" name="label_nlotto">
+            <property name="text">
+             <string>Numero lotto</string>
+            </property>
+           </widget>
+          </item>
+          <item row="10" column="9">
+           <widget class="QLineEdit" name="sconto">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Minimum">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+           </widget>
+          </item>
+          <item row="7" column="0" rowspan="2" colspan="10">
+           <widget class="Line" name="line_2">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+           </widget>
+          </item>
+          <item row="15" column="1" colspan="3">
+           <widget class="QLineEdit" name="numero_lotto"/>
+          </item>
+          <item row="4" column="0">
+           <widget class="QLabel" name="label_16">
+            <property name="text">
+             <string>Categoria</string>
+            </property>
+           </widget>
+          </item>
+          <item row="10" column="1" colspan="2">
+           <widget class="QComboBox" name="comboBox">
+            <property name="editable">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item row="12" column="5" colspan="3">
+           <widget class="QLabel" name="label_8">
+            <property name="text">
+             <string>Prezzo con iva</string>
+            </property>
+           </widget>
+          </item>
+          <item row="13" column="0" colspan="11">
+           <widget class="Line" name="line_4">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+           </widget>
+          </item>
+          <item row="6" column="1" colspan="2">
+           <widget class="QComboBox" name="um">
+            <property name="editable">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item row="14" column="1" colspan="4">
+           <widget class="QLineEdit" name="quant">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Minimum">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+           </widget>
+          </item>
+          <item row="12" column="0">
+           <widget class="QLabel" name="label_6">
+            <property name="text">
+             <string>Prezzo senza iva</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="0">
+           <widget class="QLabel" name="label_3">
+            <property name="text">
+             <string>Descizione</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="1" colspan="10">
+           <widget class="QLineEdit" name="cod_barre"/>
+          </item>
+          <item row="5" column="1" colspan="10">
+           <widget class="QComboBox" name="list_listino"/>
+          </item>
+          <item row="15" column="9">
+           <widget class="LineEdit" name="scadenza_lotto"/>
+          </item>
+          <item row="9" column="7" rowspan="2" colspan="2">
+           <widget class="QLabel" name="label_10">
+            <property name="text">
+             <string>Sconto</string>
+            </property>
+           </widget>
+          </item>
+          <item row="14" column="0">
+           <widget class="QLabel" name="label_7">
+            <property name="text">
+             <string>Quantità</string>
+            </property>
+           </widget>
+          </item>
+          <item row="9" column="0" rowspan="2">
+           <widget class="QLabel" name="label_4">
+            <property name="text">
+             <string>Iva</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="tab_2">
+      <attribute name="title">
+       <string>Lista articoli</string>
+      </attribute>
+      <layout class="QGridLayout" name="gridLayout_8">
+       <item row="0" column="0">
+        <widget class="QTableView" name="tab_view">
+         <property name="autoScroll">
+          <bool>false</bool>
+         </property>
+         <property name="editTriggers">
+          <set>QAbstractItemView::AllEditTriggers</set>
+         </property>
+         <property name="dragEnabled">
+          <bool>true</bool>
+         </property>
+         <property name="alternatingRowColors">
+          <bool>true</bool>
+         </property>
+         <attribute name="verticalHeaderDefaultSectionSize">
+          <number>21</number>
+         </attribute>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+   <item row="2" column="0">
+    <layout class="QGridLayout" name="gridLayout_6">
+     <item row="2" column="2">
+      <widget class="QPushButton" name="agg_art">
+       <property name="toolTip">
+        <string>Salva prodotto</string>
+       </property>
+       <property name="text">
+        <string>Salva</string>
+       </property>
+       <property name="icon">
+        <iconset resource="../fabaria.qrc">
+         <normaloff>:/images/document-save.png</normaloff>:/images/document-save.png</iconset>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="5">
+      <widget class="QPushButton" name="print_art">
+       <property name="toolTip">
+        <string>Stampa lista prodotti</string>
+       </property>
+       <property name="text">
+        <string>Stampa</string>
+       </property>
+       <property name="icon">
+        <iconset resource="../fabaria.qrc">
+         <normaloff>:/images/document-print.png</normaloff>:/images/document-print.png</iconset>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="0">
+      <spacer name="horizontalSpacer_2">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item row="2" column="8">
+      <widget class="QPushButton" name="exit_art">
+       <property name="toolTip">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Esci da anagrafica&lt;/p&gt;&lt;p&gt;prodotti.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+       <property name="text">
+        <string>Esci</string>
+       </property>
+       <property name="icon">
+        <iconset resource="../fabaria.qrc">
+         <normaloff>:/images/dialog-close.png</normaloff>:/images/dialog-close.png</iconset>
+       </property>
+      </widget>
+     </item>
+     <item row="8" column="3">
+      <spacer name="verticalSpacer">
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>20</width>
+         <height>40</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item row="2" column="3">
+      <widget class="QPushButton" name="modifica">
+       <property name="toolTip">
+        <string>Modifica prodotto</string>
+       </property>
+       <property name="text">
+        <string>Modifica</string>
+       </property>
+       <property name="icon">
+        <iconset resource="../fabaria.qrc">
+         <normaloff>:/images/document-edit.png</normaloff>:/images/document-edit.png</iconset>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="7">
+      <widget class="QPushButton" name="export_excel">
+       <property name="toolTip">
+        <string>Esporta in excel</string>
+       </property>
+       <property name="text">
+        <string>Excel</string>
+       </property>
+       <property name="icon">
+        <iconset resource="../fabaria.qrc">
+         <normaloff>:/images/excel.png</normaloff>:/images/excel.png</iconset>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="6">
+      <widget class="QPushButton" name="pr_bar">
+       <property name="toolTip">
+        <string>Stampa etichetta barcode</string>
+       </property>
+       <property name="text">
+        <string>Etichetta</string>
+       </property>
+       <property name="icon">
+        <iconset resource="../fabaria.qrc">
+         <normaloff>:/images/ric_24x24.png</normaloff>:/images/ric_24x24.png</iconset>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="4">
+      <widget class="QPushButton" name="del_art">
+       <property name="toolTip">
+        <string>Elimina un prodotto</string>
+       </property>
+       <property name="text">
+        <string>Elimina</string>
+       </property>
+       <property name="icon">
+        <iconset resource="../fabaria.qrc">
+         <normaloff>:/images/edit-delete.png</normaloff>:/images/edit-delete.png</iconset>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QPushButton" name="nuovo1">
+       <property name="toolTip">
+        <string>Nuovo prodotto.</string>
+       </property>
+       <property name="text">
+        <string>Nuovo</string>
+       </property>
+       <property name="icon">
+        <iconset resource="../fabaria.qrc">
+         <normaloff>:/images/documentation.png</normaloff>:/images/documentation.png</iconset>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="9">
+      <spacer name="horizontalSpacer_3">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+    </layout>
+   </item>
+   <item row="0" column="0">
+    <widget class="QGroupBox" name="groupBox_5">
+     <property name="title">
+      <string>Cerca</string>
+     </property>
+     <layout class="QGridLayout" name="gridLayout_4">
+      <item row="0" column="2">
+       <widget class="QComboBox" name="comboBox_2">
+        <property name="editable">
+         <bool>false</bool>
+        </property>
+        <property name="sizeAdjustPolicy">
+         <enum>QComboBox::AdjustToContents</enum>
+        </property>
+        <property name="frame">
+         <bool>true</bool>
+        </property>
+        <item>
+         <property name="text">
+          <string>Cerca per codice a barre</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Cerca per codice prodotto</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Cerca per prodotto</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item row="0" column="3">
+       <spacer name="horizontalSpacer_4">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item row="0" column="1">
+       <widget class="QLineEdit" name="cerca1"/>
+      </item>
+      <item row="0" column="0">
+       <widget class="QLabel" name="label_5">
+        <property name="text">
+         <string>Cerca</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>LineEdit</class>
+   <extends>QLineEdit</extends>
+   <header>LineEdit.h</header>
+  </customwidget>
+  <customwidget>
+   <class>barcode</class>
+   <extends>QGroupBox</extends>
+   <header>barcode.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <tabstops>
+  <tabstop>cod_art</tabstop>
+  <tabstop>art_nom</tabstop>
+  <tabstop>cod_barre</tabstop>
+  <tabstop>descrizione</tabstop>
+  <tabstop>categ</tabstop>
+  <tabstop>list_listino</tabstop>
+  <tabstop>um</tabstop>
+  <tabstop>prezzo_unitario</tabstop>
+  <tabstop>comboBox</tabstop>
+  <tabstop>sconto</tabstop>
+  <tabstop>p_s_iva</tabstop>
+  <tabstop>p_c_iva</tabstop>
+  <tabstop>quant</tabstop>
+  <tabstop>totale</tabstop>
+  <tabstop>dettagli</tabstop>
+  <tabstop>tabWidget</tabstop>
+  <tabstop>tab_view</tabstop>
+ </tabstops>
+ <resources>
+  <include location="../fabaria.qrc"/>
+ </resources>
+ <connections/>
+</ui>

@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>azienda</class>
+ <widget class="QDialog" name="azienda">
+  <property name="windowModality">
+   <enum>Qt::WindowModal</enum>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>613</width>
+    <height>402</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>Azienda</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="../fabaria.qrc">
+    <normaloff>:/images/logo4.png</normaloff>:/images/logo4.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_2">
+   <item row="0" column="0" colspan="8">
+    <widget class="QTabWidget" name="tabWidget">
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <widget class="QWidget" name="tab">
+      <attribute name="title">
+       <string>Inserisci azienda</string>
+      </attribute>
+      <layout class="QGridLayout" name="gridLayout_3">
+       <item row="0" column="0">
+        <widget class="QGroupBox" name="groupBox">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="toolTip">
+          <string>Anagrafica azienda</string>
+         </property>
+         <layout class="QGridLayout" name="gridLayout">
+          <item row="4" column="0">
+           <widget class="QLabel" name="label_3">
+            <property name="text">
+             <string>Partita IVA</string>
+            </property>
+           </widget>
+          </item>
+          <item row="14" column="0" colspan="7">
+           <widget class="Line" name="line_6">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+           </widget>
+          </item>
+          <item row="9" column="1" colspan="7">
+           <widget class="Line" name="line_3">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+           </widget>
+          </item>
+          <item row="15" column="5" colspan="3">
+           <widget class="QLineEdit" name="email"/>
+          </item>
+          <item row="1" column="4">
+           <widget class="QLabel" name="label_2">
+            <property name="text">
+             <string>Ragione sociale</string>
+            </property>
+           </widget>
+          </item>
+          <item row="15" column="0">
+           <widget class="QLabel" name="label_10">
+            <property name="text">
+             <string>Sito web</string>
+            </property>
+           </widget>
+          </item>
+          <item row="13" column="5" colspan="3">
+           <widget class="QLineEdit" name="fax"/>
+          </item>
+          <item row="15" column="1" colspan="3">
+           <widget class="QLineEdit" name="web"/>
+          </item>
+          <item row="1" column="0">
+           <widget class="QLabel" name="label">
+            <property name="text">
+             <string>Id</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="0" colspan="8">
+           <widget class="Line" name="line">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+           </widget>
+          </item>
+          <item row="12" column="1" colspan="6">
+           <widget class="Line" name="line_5">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+           </widget>
+          </item>
+          <item row="11" column="1">
+           <widget class="QLineEdit" name="localita"/>
+          </item>
+          <item row="11" column="4">
+           <widget class="QLabel" name="label_8">
+            <property name="text">
+             <string>PROV</string>
+            </property>
+           </widget>
+          </item>
+          <item row="8" column="1" colspan="3">
+           <widget class="QLineEdit" name="indirizzo"/>
+          </item>
+          <item row="15" column="4">
+           <widget class="QLabel" name="label_12">
+            <property name="text">
+             <string>E-mail</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="1" colspan="3">
+           <widget class="QLineEdit" name="id">
+            <property name="readOnly">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item row="6" column="1" colspan="7">
+           <widget class="Line" name="line_2">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+           </widget>
+          </item>
+          <item row="11" column="0">
+           <widget class="QLabel" name="label_7">
+            <property name="text">
+             <string>Località</string>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="1" colspan="2">
+           <widget class="QLineEdit" name="p_iva"/>
+          </item>
+          <item row="8" column="0">
+           <widget class="QLabel" name="label_5">
+            <property name="text">
+             <string>Indirizzo</string>
+            </property>
+           </widget>
+          </item>
+          <item row="8" column="4">
+           <widget class="QLabel" name="label_6">
+            <property name="text">
+             <string>CAP</string>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="7">
+           <widget class="QLabel" name="codfis_image">
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </item>
+          <item row="13" column="4">
+           <widget class="QLabel" name="label_11">
+            <property name="text">
+             <string>Fax</string>
+            </property>
+           </widget>
+          </item>
+          <item row="13" column="0">
+           <widget class="QLabel" name="label_9">
+            <property name="text">
+             <string>Telefono</string>
+            </property>
+           </widget>
+          </item>
+          <item row="11" column="5" colspan="3">
+           <widget class="QLineEdit" name="prov"/>
+          </item>
+          <item row="1" column="5" colspan="3">
+           <widget class="QLineEdit" name="rag_soc"/>
+          </item>
+          <item row="13" column="1" colspan="3">
+           <widget class="QLineEdit" name="telef"/>
+          </item>
+          <item row="4" column="4">
+           <widget class="QLabel" name="label_4">
+            <property name="text">
+             <string>Codice fiscale</string>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="3">
+           <widget class="QLabel" name="codiva_image">
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="5" colspan="2">
+           <widget class="QLineEdit" name="cod_f"/>
+          </item>
+          <item row="8" column="6">
+           <widget class="QLineEdit" name="cap"/>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="tab_2">
+      <attribute name="title">
+       <string>Lista azienda</string>
+      </attribute>
+      <layout class="QGridLayout" name="gridLayout_4">
+       <item row="0" column="0">
+        <widget class="QTableView" name="tableView">
+         <attribute name="verticalHeaderDefaultSectionSize">
+          <number>25</number>
+         </attribute>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+   <item row="1" column="0">
+    <spacer name="horizontalSpacer_3">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>40</width>
+       <height>20</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="1" column="2">
+    <widget class="QPushButton" name="licenza">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>16777215</width>
+       <height>35</height>
+      </size>
+     </property>
+     <property name="toolTip">
+      <string>Salva azienda</string>
+     </property>
+     <property name="text">
+      <string>Salva</string>
+     </property>
+     <property name="icon">
+      <iconset resource="../fabaria.qrc">
+       <normaloff>:/images/dialog-ok-apply.png</normaloff>:/images/dialog-ok-apply.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>16</width>
+       <height>16</height>
+      </size>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="4">
+    <widget class="QPushButton" name="pushButton_2">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="sizeIncrement">
+      <size>
+       <width>10</width>
+       <height>10</height>
+      </size>
+     </property>
+     <property name="toolTip">
+      <string>Elimina azienda</string>
+     </property>
+     <property name="text">
+      <string>Elimina</string>
+     </property>
+     <property name="icon">
+      <iconset resource="../fabaria.qrc">
+       <normaloff>:/images/edit-delete.png</normaloff>:/images/edit-delete.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>16</width>
+       <height>16</height>
+      </size>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="7">
+    <spacer name="horizontalSpacer_4">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>40</width>
+       <height>20</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="1" column="6">
+    <widget class="QPushButton" name="pushButton">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="toolTip">
+      <string>Esci da anagrafica 
+azienda</string>
+     </property>
+     <property name="text">
+      <string>Chiudi</string>
+     </property>
+     <property name="icon">
+      <iconset resource="../../backup_restore_db/images.qrc">
+       <normaloff>:/images/dialog-close.png</normaloff>:/images/dialog-close.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>16</width>
+       <height>16</height>
+      </size>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="1">
+    <widget class="QPushButton" name="nuova_azienda">
+     <property name="text">
+      <string>Nuovo</string>
+     </property>
+     <property name="icon">
+      <iconset resource="../fabaria.qrc">
+       <normaloff>:/images/filenew.png</normaloff>:/images/filenew.png</iconset>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="5">
+    <widget class="QPushButton" name="predefinita">
+     <property name="text">
+      <string>Predefinito</string>
+     </property>
+     <property name="icon">
+      <iconset resource="../fabaria.qrc">
+       <normaloff>:/images/predefinito.png</normaloff>:/images/predefinito.png</iconset>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="3">
+    <widget class="QPushButton" name="update_azienda">
+     <property name="text">
+      <string>Aggiorna</string>
+     </property>
+     <property name="icon">
+      <iconset resource="../fabaria.qrc">
+       <normaloff>:/images/pagate.png</normaloff>:/images/pagate.png</iconset>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <tabstops>
+  <tabstop>id</tabstop>
+  <tabstop>rag_soc</tabstop>
+  <tabstop>p_iva</tabstop>
+  <tabstop>cod_f</tabstop>
+  <tabstop>indirizzo</tabstop>
+  <tabstop>cap</tabstop>
+  <tabstop>localita</tabstop>
+  <tabstop>prov</tabstop>
+  <tabstop>telef</tabstop>
+  <tabstop>fax</tabstop>
+  <tabstop>web</tabstop>
+  <tabstop>email</tabstop>
+  <tabstop>nuova_azienda</tabstop>
+  <tabstop>licenza</tabstop>
+  <tabstop>update_azienda</tabstop>
+  <tabstop>pushButton_2</tabstop>
+  <tabstop>predefinita</tabstop>
+  <tabstop>pushButton</tabstop>
+  <tabstop>tabWidget</tabstop>
+  <tabstop>tableView</tabstop>
+ </tabstops>
+ <resources>
+  <include location="../../backup_restore_db/images.qrc"/>
+  <include location="../fabaria.qrc"/>
+ </resources>
+ <connections/>
+</ui>

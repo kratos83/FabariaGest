@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="fatturapa_v1.0.xsl"?>
+<p:FatturaElettronica versione="1.0" 
+xmlns:ds="http://www.w3.org/2000/09/xmldsig#" 
+xmlns:p="http://www.fatturapa.gov.it/sdi/fatturapa/v1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <FatturaElettronicaHeader>
+		<DatiTrasmissione>
+			<IdTrasmittente>
+				<IdPaese/>
+				<IdCodice/>
+			</IdTrasmittente>
+			<ProgressivoInvio/>
+			<FormatoTrasmissione/>
+			<CodiceDestinatario/>
+		</DatiTrasmissione>
+		<CedentePrestatore>
+			<DatiAnagrafici>
+				<IdFiscaleIVA>
+					<IdPaese/>
+					<IdCodice/>
+				</IdFiscaleIVA>
+				<Anagrafica>
+					<Denominazione/>
+				</Anagrafica>
+				<RegimeFiscale/>
+			</DatiAnagrafici>
+			<Sede>
+				<Indirizzo/>
+				<CAP/>
+				<Comune/>
+				<Nazione/>
+			</Sede>
+		</CedentePrestatore>
+		<CessionarioCommittente>
+			<DatiAnagrafici>
+				<Anagrafica>
+					<Denominazione/>
+				</Anagrafica>
+			</DatiAnagrafici>
+			<Sede>
+				<Indirizzo/>
+				<CAP/>
+				<Comune/>
+				<Nazione/>
+			</Sede>
+		</CessionarioCommittente>
+	</FatturaElettronicaHeader>
+	<FatturaElettronicaBody>
+		<DatiGenerali>
+			<DatiGeneraliDocumento>
+				<TipoDocumento/>
+				<Divisa/>
+				<Data/>
+				<Numero/>
+			</DatiGeneraliDocumento>
+		</DatiGenerali>
+		<DatiBeniServizi>
+		</DatiBeniServizi>
+	</FatturaElettronicaBody>
+</p:FatturaElettronica>

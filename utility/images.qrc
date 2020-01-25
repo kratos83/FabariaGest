@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/backup_restor.png</file>
+        <file>images/dialog-close.png</file>
+        <file>images/vcs_add.png</file>
+        <file>images/svn-commit.png</file>
+    </qresource>
+</RCC>

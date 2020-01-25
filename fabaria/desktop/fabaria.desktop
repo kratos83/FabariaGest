@@ -1,0 +1,22 @@
+[Desktop Entry]
+Categories=Application;Office
+Comment[it]=Gestionale aziendale
+Comment=Gestionale aziendale
+Encoding=UTF-8
+Exec=/usr/bin/fabaria
+GenericName[it]=
+GenericName=
+Icon=/opt/fabaria_gest/logo4.png
+MimeType=
+Name[it]=Fabaria
+Name=Fabaria
+Name[it_IT]=Fabaria
+Path=/opt/fabaria_gest
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+Type=Application
+X-DBUS-ServiceName=
+X-DBUS-StartupType=
+X-KDE-SubstituteUID=false
+X-KDE-Username=

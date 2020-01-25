@@ -1,0 +1,589 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>fornitori</class>
+ <widget class="QDialog" name="fornitori">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>851</width>
+    <height>610</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_5">
+   <item row="0" column="0">
+    <widget class="QTabWidget" name="tabWidget">
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <widget class="QWidget" name="tab">
+      <attribute name="title">
+       <string>Anagrafica fornitori</string>
+      </attribute>
+      <layout class="QGridLayout" name="gridLayout_8">
+       <item row="0" column="0">
+        <widget class="QGroupBox" name="groupBox_3">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="title">
+          <string>Fornitori</string>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_2">
+          <item row="0" column="0" colspan="3">
+           <widget class="QGroupBox" name="groupBox">
+            <property name="title">
+             <string/>
+            </property>
+            <layout class="QGridLayout" name="gridLayout">
+             <item row="1" column="4">
+              <widget class="QLabel" name="codiva_image">
+               <property name="text">
+                <string/>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="0">
+              <widget class="QLabel" name="label">
+               <property name="text">
+                <string>ID</string>
+               </property>
+              </widget>
+             </item>
+             <item row="4" column="6">
+              <widget class="QLabel" name="label_10">
+               <property name="text">
+                <string>Fax</string>
+               </property>
+              </widget>
+             </item>
+             <item row="2" column="2" colspan="4">
+              <widget class="QLineEdit" name="indirizzo"/>
+             </item>
+             <item row="6" column="0" colspan="2">
+              <widget class="QLabel" name="label_12">
+               <property name="text">
+                <string>Sito web</string>
+               </property>
+              </widget>
+             </item>
+             <item row="1" column="0" colspan="2">
+              <widget class="QLabel" name="label_3">
+               <property name="text">
+                <string>P.Iva</string>
+               </property>
+              </widget>
+             </item>
+             <item row="3" column="6" colspan="2">
+              <widget class="QLabel" name="label_8">
+               <property name="text">
+                <string>PROV</string>
+               </property>
+              </widget>
+             </item>
+             <item row="4" column="0" colspan="2">
+              <widget class="QLabel" name="label_9">
+               <property name="text">
+                <string>Telefono</string>
+               </property>
+              </widget>
+             </item>
+             <item row="3" column="2" colspan="4">
+              <widget class="QComboBox" name="localita">
+               <property name="editable">
+                <bool>true</bool>
+               </property>
+              </widget>
+             </item>
+             <item row="1" column="2" colspan="2">
+              <widget class="QLineEdit" name="part_iva"/>
+             </item>
+             <item row="1" column="6" colspan="4">
+              <widget class="QLineEdit" name="cod_fisc"/>
+             </item>
+             <item row="3" column="0" colspan="2">
+              <widget class="QLabel" name="label_7">
+               <property name="text">
+                <string>Località</string>
+               </property>
+              </widget>
+             </item>
+             <item row="1" column="5">
+              <widget class="QLabel" name="label_4">
+               <property name="text">
+                <string>C.F</string>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="3">
+              <widget class="QLabel" name="label_2">
+               <property name="text">
+                <string>Ragione sociale</string>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="1" colspan="2">
+              <widget class="QLineEdit" name="id">
+               <property name="styleSheet">
+                <string notr="true">background-color: rgb(255, 255, 127);</string>
+               </property>
+              </widget>
+             </item>
+             <item row="4" column="2" colspan="4">
+              <widget class="QLineEdit" name="telefono"/>
+             </item>
+             <item row="5" column="0" colspan="2">
+              <widget class="QLabel" name="label_11">
+               <property name="text">
+                <string>E-mail</string>
+               </property>
+              </widget>
+             </item>
+             <item row="2" column="0" colspan="2">
+              <widget class="QLabel" name="label_5">
+               <property name="text">
+                <string>Indirizzo</string>
+               </property>
+              </widget>
+             </item>
+             <item row="2" column="6">
+              <widget class="QLabel" name="label_6">
+               <property name="text">
+                <string>CAP</string>
+               </property>
+              </widget>
+             </item>
+             <item row="1" column="10">
+              <widget class="QLabel" name="codfis_image">
+               <property name="text">
+                <string/>
+               </property>
+              </widget>
+             </item>
+             <item row="7" column="2">
+              <spacer name="verticalSpacer_2">
+               <property name="orientation">
+                <enum>Qt::Vertical</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>20</width>
+                 <height>40</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+             <item row="0" column="5" colspan="6">
+              <widget class="QLineEdit" name="rag_soc"/>
+             </item>
+             <item row="2" column="8" colspan="3">
+              <widget class="QComboBox" name="cap">
+               <property name="editable">
+                <bool>true</bool>
+               </property>
+              </widget>
+             </item>
+             <item row="3" column="8" colspan="3">
+              <widget class="QLineEdit" name="prov"/>
+             </item>
+             <item row="4" column="7" colspan="4">
+              <widget class="QLineEdit" name="fax"/>
+             </item>
+             <item row="5" column="2" colspan="9">
+              <widget class="QLineEdit" name="email"/>
+             </item>
+             <item row="6" column="2" colspan="9">
+              <widget class="QLineEdit" name="sito"/>
+             </item>
+            </layout>
+            <zorder>email</zorder>
+            <zorder>rag_soc</zorder>
+            <zorder>label_8</zorder>
+            <zorder>label_12</zorder>
+            <zorder>label_6</zorder>
+            <zorder>label_10</zorder>
+            <zorder>label_11</zorder>
+            <zorder>label</zorder>
+            <zorder>telefono</zorder>
+            <zorder>label_5</zorder>
+            <zorder>indirizzo</zorder>
+            <zorder>prov</zorder>
+            <zorder>cod_fisc</zorder>
+            <zorder>label_4</zorder>
+            <zorder>label_7</zorder>
+            <zorder>fax</zorder>
+            <zorder>id</zorder>
+            <zorder>label_9</zorder>
+            <zorder>part_iva</zorder>
+            <zorder>label_2</zorder>
+            <zorder>sito</zorder>
+            <zorder>label_3</zorder>
+            <zorder>cap</zorder>
+            <zorder>localita</zorder>
+            <zorder>codiva_image</zorder>
+            <zorder>codfis_image</zorder>
+            <zorder>verticalSpacer_2</zorder>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QGroupBox" name="groupBox_4">
+         <property name="minimumSize">
+          <size>
+           <width>267</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>267</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="title">
+          <string>Informazioni</string>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_4">
+          <item row="0" column="0">
+           <widget class="QTextEdit" name="dettagli">
+            <property name="readOnly">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <widget class="QGroupBox" name="groupBox_5">
+            <property name="minimumSize">
+             <size>
+              <width>251</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>251</width>
+              <height>16777215</height>
+             </size>
+            </property>
+            <property name="title">
+             <string/>
+            </property>
+            <layout class="QGridLayout" name="gridLayout_3">
+             <item row="2" column="0">
+              <widget class="QPushButton" name="cerca_forn">
+               <property name="text">
+                <string>Cerca</string>
+               </property>
+               <property name="icon">
+                <iconset resource="../fabaria.qrc">
+                 <normaloff>:/images/edit-find.png</normaloff>:/images/edit-find.png</iconset>
+               </property>
+              </widget>
+             </item>
+             <item row="3" column="0" colspan="2">
+              <widget class="QLabel" name="label_13">
+               <property name="text">
+                <string>Totale fornitori</string>
+               </property>
+              </widget>
+             </item>
+             <item row="2" column="1" colspan="2">
+              <spacer name="horizontalSpacer_2">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>174</width>
+                 <height>20</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+             <item row="0" column="2">
+              <widget class="QLineEdit" name="cerca"/>
+             </item>
+             <item row="3" column="2" colspan="2">
+              <widget class="QLineEdit" name="totale_list"/>
+             </item>
+             <item row="1" column="2">
+              <widget class="QComboBox" name="combo_pref">
+               <item>
+                <property name="text">
+                 <string>Cerca per ragione sociale</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Cerca per partita iva</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Cerca per codice fiscale</string>
+                </property>
+               </item>
+              </widget>
+             </item>
+             <item row="0" column="0">
+              <widget class="QLabel" name="label_14">
+               <property name="text">
+                <string>Cerca</string>
+               </property>
+              </widget>
+             </item>
+             <item row="4" column="0">
+              <spacer name="verticalSpacer">
+               <property name="orientation">
+                <enum>Qt::Vertical</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>20</width>
+                 <height>40</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+            </layout>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="1" column="0" colspan="2">
+        <widget class="QGroupBox" name="groupBox_2">
+         <property name="title">
+          <string/>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_6">
+          <item row="1" column="3">
+           <widget class="QPushButton" name="elimina_b">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="toolTip">
+             <string>Elimina</string>
+            </property>
+            <property name="text">
+             <string>Elimina</string>
+            </property>
+            <property name="icon">
+             <iconset resource="../fabaria.qrc">
+              <normaloff>:/images/edit-delete.png</normaloff>:/images/edit-delete.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>16</width>
+              <height>16</height>
+             </size>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="2">
+           <widget class="QPushButton" name="salva_b">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="toolTip">
+             <string>Salva</string>
+            </property>
+            <property name="text">
+             <string>Salva</string>
+            </property>
+            <property name="icon">
+             <iconset resource="../fabaria.qrc">
+              <normaloff>:/images/document-save.png</normaloff>:/images/document-save.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>16</width>
+              <height>16</height>
+             </size>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="4">
+           <widget class="QPushButton" name="stampa_b">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="toolTip">
+             <string>Stampa</string>
+            </property>
+            <property name="text">
+             <string>Stampa</string>
+            </property>
+            <property name="icon">
+             <iconset resource="../fabaria.qrc">
+              <normaloff>:/images/document-print.png</normaloff>:/images/document-print.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>16</width>
+              <height>16</height>
+             </size>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="6">
+           <widget class="QPushButton" name="esci">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="toolTip">
+             <string>Esci</string>
+            </property>
+            <property name="text">
+             <string>Chiudi</string>
+            </property>
+            <property name="icon">
+             <iconset resource="../../backup_restore_db/images.qrc">
+              <normaloff>:/images/dialog-close.png</normaloff>:/images/dialog-close.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>16</width>
+              <height>16</height>
+             </size>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="1">
+           <widget class="QPushButton" name="nuovo_b">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="toolTip">
+             <string>Nuovo</string>
+            </property>
+            <property name="text">
+             <string>Nuovo</string>
+            </property>
+            <property name="icon">
+             <iconset resource="../fabaria.qrc">
+              <normaloff>:/images/dialog-ok-apply.png</normaloff>:/images/dialog-ok-apply.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>16</width>
+              <height>16</height>
+             </size>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <spacer name="horizontalSpacer">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>40</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item row="1" column="5">
+           <widget class="QPushButton" name="export_excel">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="text">
+             <string>Esporta</string>
+            </property>
+            <property name="icon">
+             <iconset resource="../fabaria.qrc">
+              <normaloff>:/images/excel.png</normaloff>:/images/excel.png</iconset>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="7">
+           <spacer name="horizontalSpacer_3">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>40</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="tab_2">
+      <attribute name="title">
+       <string>Lista fornitori</string>
+      </attribute>
+      <layout class="QGridLayout" name="gridLayout_7">
+       <item row="0" column="0">
+        <widget class="QTableView" name="tableView">
+         <attribute name="verticalHeaderDefaultSectionSize">
+          <number>15</number>
+         </attribute>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <tabstops>
+  <tabstop>id</tabstop>
+  <tabstop>rag_soc</tabstop>
+  <tabstop>part_iva</tabstop>
+  <tabstop>cod_fisc</tabstop>
+  <tabstop>indirizzo</tabstop>
+  <tabstop>cap</tabstop>
+  <tabstop>localita</tabstop>
+  <tabstop>prov</tabstop>
+  <tabstop>telefono</tabstop>
+  <tabstop>fax</tabstop>
+  <tabstop>email</tabstop>
+  <tabstop>sito</tabstop>
+  <tabstop>cerca</tabstop>
+  <tabstop>combo_pref</tabstop>
+  <tabstop>cerca_forn</tabstop>
+  <tabstop>totale_list</tabstop>
+  <tabstop>salva_b</tabstop>
+  <tabstop>dettagli</tabstop>
+ </tabstops>
+ <resources>
+  <include location="../../backup_restore_db/images.qrc"/>
+  <include location="../fabaria.qrc"/>
+ </resources>
+ <connections/>
+</ui>

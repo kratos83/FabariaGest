@@ -1,0 +1,19 @@
+/opt/fabaria_gest/lib/libanalogclock_fabaria.so
+/opt/fabaria_gest/lib/libinitdb_fabaria-1.0.so
+/opt/fabaria_gest/lib/liblog_man_fabaria-1.0.so
+/opt/fabaria_gest/lib/libsmtp_fabaria.so
+/opt/fabaria_gest/lib/libxlsx_fabaria.so
+/opt/fabaria_gest/lib/libqwt_fabaria.so
+/opt/fabaria_gest/lib/libqtdropbox_fabaria
+/opt/fabaria_gest/lib/libquazip_fabaria.so
+/opt/fabaria_gest/plugin/libbackup_restore_db.so
+/opt/fabaria_gest/plugin/libcheck_database.so
+/opt/fabaria_gest/plugin/libinventario.so
+/opt/fabaria_gest/fabaria_gest
+/usr/share/applications/fabaria.desktop
+fabaria/images/logo4.png /opt/fabaria_gest
+fabaria/installdb/install_db.sql /opt/fabaria_gest/installdb
+fabaria/updatedb/update_db.sql /opt/fabaria_gest/updateldb
+/opt/fabaria_gest/update
+/opt/fabaria_gest/backup_restore
+fabaria/fabaria /usr/bin

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>email_send</class>
+ <widget class="QDialog" name="email_send">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>539</width>
+    <height>484</height>
+   </rect>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="1" column="1">
+    <widget class="QPushButton" name="invia">
+     <property name="text">
+      <string>Invia</string>
+     </property>
+     <property name="icon">
+      <iconset resource="../fabaria.qrc">
+       <normaloff>:/images/invio_mail.png</normaloff>:/images/invio_mail.png</iconset>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="0">
+    <spacer name="horizontalSpacer">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>40</width>
+       <height>20</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="0" column="0" colspan="2">
+    <widget class="QGroupBox" name="groupBox">
+     <property name="title">
+      <string>Invia e-mail</string>
+     </property>
+     <layout class="QGridLayout" name="gridLayout_2">
+      <item row="3" column="0" colspan="2">
+       <widget class="QCheckBox" name="ricevuta">
+        <property name="text">
+         <string>Richiedi ricevuta di lettura</string>
+        </property>
+       </widget>
+      </item>
+      <item row="5" column="0" colspan="2">
+       <widget class="QCheckBox" name="vis_al_list">
+        <property name="text">
+         <string>Allegati</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="0">
+       <widget class="QLabel" name="label_4">
+        <property name="text">
+         <string>Oggetto</string>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="0" colspan="2">
+       <widget class="QTextEdit" name="editor"/>
+      </item>
+      <item row="2" column="1">
+       <widget class="QLineEdit" name="oggetto">
+        <property name="placeholderText">
+         <string>Inserisci oggetto email</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="0">
+       <widget class="QLabel" name="label_2">
+        <property name="text">
+         <string>Da:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QLabel" name="label_3">
+        <property name="text">
+         <string>A:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QLineEdit" name="a_email"/>
+      </item>
+      <item row="6" column="0" colspan="2">
+       <widget class="ListBoxEmail" name="list_file"/>
+      </item>
+      <item row="1" column="2">
+       <widget class="QPushButton" name="rubrica">
+        <property name="toolTip">
+         <string>Seleziona email</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset resource="../fabaria.qrc">
+          <normaloff>:/images/system-users.png</normaloff>:/images/system-users.png</iconset>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QLineEdit" name="cc_email">
+        <property name="placeholderText">
+         <string>Destinatario email</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+</item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>ListBoxEmail</class>
+   <extends>QListWidget</extends>
+   <header>ListBox.h</header>
+  </customwidget>
+ </customwidgets>
+ <tabstops>
+  <tabstop>a_email</tabstop>
+  <tabstop>cc_email</tabstop>
+  <tabstop>rubrica</tabstop>
+  <tabstop>oggetto</tabstop>
+  <tabstop>ricevuta</tabstop>
+  <tabstop>editor</tabstop>
+  <tabstop>vis_al_list</tabstop>
+  <tabstop>list_file</tabstop>
+  <tabstop>invia</tabstop>
+ </tabstops>
+ <resources>
+  <include location="../fabaria.qrc"/>
+ </resources>
+ <connections/>
+</ui>

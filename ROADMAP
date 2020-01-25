@@ -1,0 +1,6 @@
+create multi azienda(ok)
+selezionare azienda in stampa(ok)
+creare multi magazzino in articoli, ddt, carico_mag, fatture_acq(ok)
+inserire in articoli,ddt,ordine,preventivi,fatture la possibilità di scegliere lotti, bancale e pacchi(ok)
+in fatture,ddt,fatture_acq,preventivi,ordini fare in modo che si aggiorni e inserisce i dati in righe manuali(ok)
+completare restiling grafico fabaria(ok)

@@ -1,0 +1,12 @@
+CREATE TABLE IF NOT EXISTS `fabarialog` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `log_error` text DEFAULT NULL,
+  `logo_linea` text DEFAULT NULL,
+  `dataLog` DATE NULL DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+LOCK TABLES `fabarialog` WRITE;
+/*!40000 ALTER TABLE `fabarialog` DISABLE KEYS */;
+/*!40000 ALTER TABLE `fabarialog` ENABLE KEYS */;
+UNLOCK TABLES;

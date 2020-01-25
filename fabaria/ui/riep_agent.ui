@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>riep_agent</class>
+ <widget class="QDialog" name="riep_agent">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>965</width>
+    <height>497</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Situazione agenti</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_2">
+   <item row="0" column="0">
+    <widget class="QTabWidget" name="tabWidget">
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <widget class="QWidget" name="tab">
+      <attribute name="title">
+       <string>Riepilogo agenti</string>
+      </attribute>
+      <layout class="QGridLayout" name="gridLayout_5">
+       <item row="0" column="0">
+        <widget class="QGroupBox" name="groupBox_2">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="title">
+          <string/>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_3">
+          <item row="6" column="0" colspan="2">
+           <widget class="QRadioButton" name="list_comp">
+            <property name="text">
+             <string>Vis&amp;ualizza lista completa</string>
+            </property>
+           </widget>
+          </item>
+          <item row="7" column="0" colspan="2">
+           <widget class="QRadioButton" name="agenti_pagati">
+            <property name="text">
+             <string>V&amp;isualizza agenti pagati</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <widget class="QLabel" name="label">
+            <property name="text">
+             <string>Cerca</string>
+            </property>
+           </widget>
+          </item>
+          <item row="9" column="1">
+           <spacer name="verticalSpacer">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>20</width>
+              <height>40</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item row="1" column="1">
+           <widget class="QComboBox" name="combo_cerca">
+            <item>
+             <property name="text">
+              <string>Cerca per cognome</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>Cerca per data</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>Cerca per mese</string>
+             </property>
+            </item>
+           </widget>
+          </item>
+          <item row="3" column="0" colspan="2">
+           <widget class="QPushButton" name="find_email">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="text">
+             <string>Cerca</string>
+            </property>
+            <property name="icon">
+             <iconset resource="../fabaria.qrc">
+              <normaloff>:/images/edit-find.png</normaloff>:/images/edit-find.png</iconset>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="0" colspan="2">
+           <widget class="QLineEdit" name="cerca_txt"/>
+          </item>
+          <item row="8" column="0" colspan="2">
+           <widget class="QRadioButton" name="agenti_non_pagati">
+            <property name="text">
+             <string>Visuazlizza agenti &amp;non pagati</string>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="0">
+           <spacer name="verticalSpacer_2">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>20</width>
+              <height>40</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item row="5" column="0">
+           <widget class="QLabel" name="label_2">
+            <property name="text">
+             <string>Seleziona mese</string>
+            </property>
+           </widget>
+          </item>
+          <item row="5" column="1">
+           <widget class="QComboBox" name="mese">
+            <item>
+             <property name="text">
+              <string/>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>Gennaio</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>Febbraio</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>Marzo</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>Aprile</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>Maggio</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>Giugno</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>Luglio</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>Agosto</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>Settembre</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>Ottobre</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>Novembre</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>Dicembre</string>
+             </property>
+            </item>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QTextEdit" name="editor">
+         <property name="readOnly">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="tab_2">
+      <attribute name="title">
+       <string>Lista agenti</string>
+      </attribute>
+      <layout class="QGridLayout" name="gridLayout_4">
+       <item row="0" column="0">
+        <widget class="QTableView" name="tableView">
+         <attribute name="verticalHeaderDefaultSectionSize">
+          <number>15</number>
+         </attribute>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+   <item row="1" column="0" colspan="2">
+    <widget class="QGroupBox" name="groupBox">
+     <property name="title">
+      <string/>
+     </property>
+     <layout class="QGridLayout" name="gridLayout">
+      <item row="0" column="7">
+       <widget class="QToolButton" name="sel_all">
+        <property name="text">
+         <string>Seleziona tutto</string>
+        </property>
+        <property name="icon">
+         <iconset resource="../fabaria.qrc">
+          <normaloff>:/images/select_all.png</normaloff>:/images/select_all.png</iconset>
+        </property>
+        <property name="toolButtonStyle">
+         <enum>Qt::ToolButtonTextUnderIcon</enum>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="9">
+       <widget class="QToolButton" name="ag_pag">
+        <property name="text">
+         <string>Pagata</string>
+        </property>
+        <property name="icon">
+         <iconset resource="../fabaria.qrc">
+          <normaloff>:/images/pagate.png</normaloff>:/images/pagate.png</iconset>
+        </property>
+        <property name="toolButtonStyle">
+         <enum>Qt::ToolButtonTextUnderIcon</enum>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="10">
+       <widget class="QToolButton" name="ag_npag">
+        <property name="text">
+         <string>Non pagata</string>
+        </property>
+        <property name="icon">
+         <iconset resource="../fabaria.qrc">
+          <normaloff>:/images/non_pagate.png</normaloff>:/images/non_pagate.png</iconset>
+        </property>
+        <property name="toolButtonStyle">
+         <enum>Qt::ToolButtonTextUnderIcon</enum>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QToolButton" name="stampa">
+        <property name="text">
+         <string>Stampa</string>
+        </property>
+        <property name="icon">
+         <iconset resource="../fabaria.qrc">
+          <normaloff>:/images/document-print.png</normaloff>:/images/document-print.png</iconset>
+        </property>
+        <property name="toolButtonStyle">
+         <enum>Qt::ToolButtonTextUnderIcon</enum>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="2">
+       <widget class="QToolButton" name="print_agente">
+        <property name="text">
+         <string>Stampa per agente</string>
+        </property>
+        <property name="icon">
+         <iconset resource="../fabaria.qrc">
+          <normaloff>:/images/document-print.png</normaloff>:/images/document-print.png</iconset>
+        </property>
+        <property name="toolButtonStyle">
+         <enum>Qt::ToolButtonTextUnderIcon</enum>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="13">
+       <spacer name="horizontalSpacer">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>68</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item row="0" column="5">
+       <widget class="QToolButton" name="pdf_print">
+        <property name="text">
+         <string>Esporta pdf</string>
+        </property>
+        <property name="icon">
+         <iconset resource="../fabaria.qrc">
+          <normaloff>:/images/pdf.png</normaloff>:/images/pdf.png</iconset>
+        </property>
+        <property name="toolButtonStyle">
+         <enum>Qt::ToolButtonTextUnderIcon</enum>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="12">
+       <widget class="QToolButton" name="esci">
+        <property name="text">
+         <string>Esci</string>
+        </property>
+        <property name="icon">
+         <iconset resource="../fabaria.qrc">
+          <normaloff>:/images/dialog-close.png</normaloff>:/images/dialog-close.png</iconset>
+        </property>
+        <property name="toolButtonStyle">
+         <enum>Qt::ToolButtonTextUnderIcon</enum>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="6">
+       <widget class="QToolButton" name="pdf_print_agente">
+        <property name="text">
+         <string>Esporta pdf per agente</string>
+        </property>
+        <property name="icon">
+         <iconset resource="../fabaria.qrc">
+          <normaloff>:/images/pdf.png</normaloff>:/images/pdf.png</iconset>
+        </property>
+        <property name="toolButtonStyle">
+         <enum>Qt::ToolButtonTextUnderIcon</enum>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="0">
+       <spacer name="horizontalSpacer_2">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item row="0" column="8">
+       <widget class="QToolButton" name="toolButton">
+        <property name="text">
+         <string>Deseleziona tutto</string>
+        </property>
+        <property name="icon">
+         <iconset resource="../fabaria.qrc">
+          <normaloff>:/images/clean.png</normaloff>:/images/clean.png</iconset>
+        </property>
+        <property name="toolButtonStyle">
+         <enum>Qt::ToolButtonTextUnderIcon</enum>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <tabstops>
+  <tabstop>combo_cerca</tabstop>
+  <tabstop>cerca_txt</tabstop>
+  <tabstop>find_email</tabstop>
+  <tabstop>mese</tabstop>
+  <tabstop>list_comp</tabstop>
+  <tabstop>agenti_pagati</tabstop>
+  <tabstop>agenti_non_pagati</tabstop>
+  <tabstop>stampa</tabstop>
+  <tabstop>print_agente</tabstop>
+  <tabstop>pdf_print</tabstop>
+  <tabstop>pdf_print_agente</tabstop>
+  <tabstop>sel_all</tabstop>
+  <tabstop>toolButton</tabstop>
+  <tabstop>ag_pag</tabstop>
+  <tabstop>ag_npag</tabstop>
+  <tabstop>esci</tabstop>
+ </tabstops>
+ <resources>
+  <include location="../fabaria.qrc"/>
+ </resources>
+ <connections/>
+</ui>

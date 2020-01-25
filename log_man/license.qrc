@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/wizard.png</file>
+        <file>images/ok.png</file>
+        <file>images/sb.png</file>
+        <file>images/dialog-ok-apply.png</file>
+        <file>images/list-remove.png</file>
+        <file>qss/style.qss</file>
+        <file>images/icons32x32.png</file>
+    </qresource>
+</RCC>

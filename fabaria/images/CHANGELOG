@@ -1,0 +1,36 @@
+	FastAss 1.6.0
+	
+	Risolto problema aggiornamento scadenziario
+    Risolto invio email al consulente
+	Risolto problema invio email in polizze
+	Risolto utilizzo campi obbligatori in polizze
+	Risolto scadenze in polizze
+	Risolto problema frazionamenti
+	Rinnovo automatico della scadenza, effetto e incasso
+	Nuova funzionalità codice fiscale inverso
+	Aggiunta possibilità di inserimento nota in clienti e fornitori
+	Aggiunto salvataggio testo delle email in storico email
+	Aggiunto pulsante visualizza polizza
+	Migliorato il filtro in clienti e fornitori
+	Stampa in versione html per fornitori e storico email
+    Invio email in background sia in scadenze sia in clienti
+    Risolto problema invio fatture
+    Aggiornato storico email
+    Risolto invio al consulente su prima nota
+    Risolto problema parole con apostrofo
+    Aggiunta la calcolatrice
+    Nuova interfaccia grafica
+    Risolto problema salvataggio in storico email
+    Risolto problema uso CPU(100%)
+    Rosolto problema di stampa in fatture
+    Risolto problema stampa prima nota
+    Aggiunta in stampa prima nota con quale metodo di pagamento è stata pagata la fattura o polizza
+    Migliorata la gestione della ricerca
+    Il filtro funziona in base alle risoluzioni del  computer
+    Risolto problema apertura pdf
+    Nuovo login ania(manca estrapolazione dati)
+    Risolto problema rinnovo polizze
+    Aggiunto supporto aggiornamento prima delle eliminazioni delle polizze
+    Risolto problema ricerca in fatture
+    Risolto problema dell'anno in fatture,prima nota, ecc.
+    Invio email a fornitori da prima nota e polizze

@@ -1,0 +1,15 @@
+Source: fabariagest
+Section: unknown
+Priority: extra
+Maintainer: Codelinsoft <info@codelinsoft.it>
+Build-Depends: debhelper (>= 8),libqt5concurrent5, libqt5core5a,libqt5gui5, libqt5multimedia5,libqt5multimediawidgets5, libqt5network5,
+	libqt5opengl5, libqt5printsupport5, libqt5sql5, libqt5sql5-mysql, libqt5svg5, libqt5widgets5, libqt5xml5, libqt5quick5, libqt5quickwidgets5,libmysqlclient20, mysql-common, mysql-server, mysql-client,lsb-release, libqt5qml5, libqt5multimedia5
+Standards-Version: 3.9.2
+
+Package: fabariagest
+Architecture: amd64
+Pre-Depends: ${misc:Pre-Depends}
+Depends: ${shlibs:Depends},
+         ${misc:Depends}
+Description: <Software per la gestione delle aziende>
+ <Un software gestionale che ti aiuta ad organizzare le attività commerciali della tua azienda. FabariaGest permette di gestire in modo semplice e intuitivo fatture, prezzi, schede prodotto, clienti e molto altro.Dopo una semplice installazione, il programma è già pronto per l'utilizzo e non ha bisogno di altre operazioni. Grazie alla struttura del database, la ricerca degli elementi negli archivi è facile ed estremamente veloce. Puoi esportare tutti i documenti (clienti, fornitori, articoli, preventivi, ordini, inventari, elenchi vari..) nei principali formati d'uso (.doc, .xls, .pdf).>

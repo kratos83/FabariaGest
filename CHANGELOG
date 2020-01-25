@@ -1,0 +1,271 @@
+/******************************************
+	FabariaGest 2.1
+	Fix Send email to smtp client
+	Fix quazip identation clicle for 
+	Add TRANSLATE FABARIA(manca traduzione)
+	Fix declared with attribute nodiscard(v.toUpper())
+	Fix control reaches end of non-void function
+	Aggiunto supporto html per la stampa
+	Cambio fattura elettronica nella versione 1.5
+	Cambio interfaccia delle tab
+	Cambiato plugin bottone in QToolButton
+	Risolto problema sezione Q_OS_WIN
+	Risolto problema inserimento importi in articoli
+	Risolto problema inserimento dati articoli, azienda
+	Risolto problema selezione cap o città su clienti, fornitori, agenti e azienda
+	Cambio nome in FabariaGest
+	
+/******************************************
+	FabariaGest 2.0
+	Fix update title mainwindow
+	Create multi magazzino
+	Fix dynamic exception
+	Add animation tabBar
+	Add send email con notification
+	Add Debug
+	Change ui user,fornitori,agenti, preferences,articoli, misure, catergorie, carico_magazzino, banche,etc...
+	Add qtdropbox library and remove obsolete dropbox-C
+	Add gestione lotto, pacchi, bancale con data di scadenza
+	Fix exit FabariaGest
+	Fix select year
+	create multi azienda
+	select azienda first print
+	Fix manual  insert price
+	Fix view fattura pa public administration
+	Fix insert or update agente in fattura
+	Fix add scadenze fattura
+	
+/******************************************
+	FabariaGest 1.2
+Fix view title azienda
+Fix export excel file
+Fix visualizzazione simbolo meno nello scadenziario in mainwindow
+Fix deprecated typedef
+Remove xlslib and add QXls
+Add IconFileProvider
+Add Key_TAB into QTableView and click table update sum
+Add quazip support lib
+Add extractFileZip into defines
+Fix extract plugin
+Add row table editable
+Remove dropbox python and add dropbox in C Language
+CheckDatabase add QTableView.Remove QTextEdit
+Fix center desktop initdb and CheckDatabase
+Add icon CheckDatabase
+Add row editable into ddt_righe
+Fix prezzo unitario into ddt_righe
+Fix DDT,FATT_ACQ,FATTURA, ORDINI, PREVENTIVI add row
+Add export and import file excel(xlsx)
+FIX print carico_magazzino and scarico_magazzino
+Fix visualizzazione dettagli articoli sia in carico_magazzino
+    sia in scarico_magazzino
+/******************************************
+	FabariaGest 1.1
+
+fix qwt lib
+remove WriteFile exception
+fix compile os windows
+fix loop maninwindows
+complete port qt5
+Fix compile all plugin 
+add message() into db_bk_rs
+fix style css
+Fix QList<T>::at() (commit by Caterpillar)
+Fix name riba da emettere(commit by Caterpillar)
+new update from PluginManager
+Add checkbox to treewidget
+change doubleClicked() to treeWidget PluginManager in itemClicked
+new skin connection database
+add new css style
+add verifica_codicefiscale
+add verifica_partita_iva
+fix fattura elettronica data_insert
+fix qwt zoom to 6.0 and 6.1
+add update plugin
+add command static mysql
+fix dropbox loop
+Add clienti persona giuridica e fisica
+Add ricerca automatica cap
+Add codicefiscale sql
+Fix core dumped codicefiscale
+Add pid file or running software
+fix check database command
+fix azienda main
+fix plugin into main
+
+/******************************************
+	FabariaGest 1.0 final release
+
+fix compile for qwt-6.0 and qwt-6.1
+fix button clienti in mainwindow
+fix scadenziario mainwindow
+fix scadenze,distinta riba select month
+fix select combo in fatture,preventivi,ordini,ddt
+add lista agenti,riepilogo agenti
+add registro iva
+remove obsolete code to print.cpp
+fx resize fatture_vendita
+fix modified record into ordini,preventivi,ddt,fattura_acq,fatture_vendita
+fix update sql ordini,preventivi,fattura_acq
+add dropbox support
+fix compile qwt lib for FabariaGest
+fix compile plugin port qt4 to qt5
+completata statistiche fatturato/ordinato/preventivato
+imposrt qwt libraries
+fix stampa barcode
+fix plugin porting qt5
+completato porting qt5
+Statistiche fatturato/preventivato/ordinato
+aggiungere manifest per update con invocazione amministratore
+Esistenza articoli in base al giorno e mese
+aggiunta data_insert in articoli, carico_magazzino, scarico_magazzino
+fix scarico_magazzino
+
+/******************************************
+	FabariaGest 1.0 rc1
+(versione non adatta all'uso quotidiano)
+
+backup log
+rimosso query.bindvalue
+aggiunta la gestione eccezione per tutte le classi presenti
+aggiunnto supporto LOG per tutte le classi presenti
+implementate le scorciatoie tastiera
+rimozione delle classi sound.cpp, sound.h, topheader.cpp e topheader.h
+Aggiunta selezione banca dal pannello impostazioni
+fix anno nuova fattura vendita, ordine, preventivo, ddt
+Rimozione supporto phonon
+fix aggiornamento lista scadenze in mainwindow
+fix payment fom fattura elettronica
+Aggiunta lettura memoria RAM
+Aggiunto supporto LOG_DEFAULT_ALL
+fix prezzo con iva e prezzo senza iva fattura_acq
+fix inserimento scadenze
+fix inserimento articoli da fattura_acq
+fix database still use
+fix inserimento per anno
+fix inserimento ddt in fattura
+fix add scadenze
+fix title mainwindow
+Aggiunto supporto riesecuzione wizard
+fix log write into file
+fix change Q_OS_UNIX to Q_OS_FREEBSD
+fix azienda
+
+/******************************************
+	FabariaGest 1.0 beta2
+(versione non adatta all'uso quotidiano)
+
+fix update sql
+fix bundle osx
+fix mimepart invio email
+fix mysql plugin driver for osx
+fix plugin osx
+fix compilazione su mac os x
+fix installer for windows
+fix open fattura elettronica(attempt 40 seconds)
+fix visualizzazione iban in fattura vendita
+fix selezione clienti,fornitori in ddt,ordini,preventivi,fatture vendita
+fix visualizzazione evaso in ddt
+fix visualizzazione listini
+fix close scarico magazzino
+add listino and categoria ddt,fatture_acq,ordini,preventivi,fatture vendita
+fix find banche
+fix update articoli form ddt
+fix date non possono essere string
+fix inserirmenti che non possono essere null
+fix lista scadenze(buffer overflow)
+fix update listino
+add listino and categoria articoli
+fix scadenze, distinta riba
+fix invio email fattura di vendita
+fix fattura vendita alla chiusura
+fix inserimento fatture_acq,fatture,ordini,preventivi,ddt
+fix add anno alla creazione del database
+Add software update 
+implementazione email per ordini,ddt,preventivi
+fix visualizzazione inserimento e aggiornamento ddt,ordini,preventivi 
+Aggiunto supporto LOG(Sperimentale)
+Fix accesso database online
+implementazione utility run backup and restore database
+Fix exportazione pdf articoli, banche,carico magazzino,codice fiscale,
+fattura vendita, preventivi, scadenze, scarico magazzino
+Aggiunto supporto gestione eccezioni
+fix show about
+Aggiunta visualizzazione storico email
+Aggiunto supporto aggiornamento
+Add eliminazione allegato email
+Add invio fatture tramite email
+Add support smtp client
+Aggiunta cifratura base64 file per fattura e fattura elettronica
+Aggiunta utility run backup and restore database
+Supporto completo fattura elettronica
+Add allegati fattura
+Fix visualizzazione pulsanti fornitori e clienti
+Add pulsante donate
+Fix aggiornamento e creazione database
+
+/******************************************
+	FabariaGest 1.0 beta1
+(versione non adatta all'uso quotidiano)
+
+Fix sconto fatture
+Fix sconto preventivi
+Fix sconto ordini
+Fix sconto ddt
+Fix sconto fatture di acquisto
+Aggiunto supporto allegati fattura con eliminazione(sperimentale)
+Fix installazione plugin su windows
+Aggiunto menu salvataggio fattura elettronica
+Impostazione id fatture acquisti, fatture, preventivi, ordini, ddt
+Pulsanti visibili all'utente finale
+Aggiunto supporto compilazione cmake
+Importazione elenco stati
+Completamento fattura elettronica
+Aggiunti paesi per fattura elettronica
+Fix bug inserimento articoli
+Impostato aggiornamento database se trova un db più vecchio
+Aggiunto salvataggio password criptato
+Aggiunto supporto esportazione excel
+Risolto bug barcode in prodotti
+Risolto bug rilevamento prezzi articoli e magazzino da fatture
+
+/******************************************
+	FabariaGest 1.0 alpha2
+(versione non adatta all'uso quotidiano)
+
+Aggiornamento database
+Nuova gestione della creazione database
+Corretto bug main loop
+Corretti bug per l'avvio dei plugin.
+Corretto bug visualizzazione codice fiscale.
+Corretto bug visualizzazione temi.
+Corretto bug impostazione menu.
+Corretto bug avvio audio tramite phonon.
+Corretto bug avvio main per windows e osx.
+Implementazione sperimentale fattura elettronica.
+Implementazione dettagli plugin.
+Implementazione scadenziario home
+Integrato il supporto a FreeBSD.
+Implementazione schermata di avvio.
+Implementazione gestione dei fornitori.
+Implementazione salvataggio ridimensionamento finestra.
+
+/******************************************
+	FabariaGest 1.0 alpha1
+(versione non adatta all'uso quotidiano)
+
+implemetazione aggiornamento automatico(sperimentale)
+implementazione stampa nuova 
+implementazione fattura 
+implementazione ordine 
+implementazione ddt
+implementazione preventivi
+implementazione carico e scarico magazzino
+implementazione nuova trayicon
+implementazione stampa codice a barre più di uno su una pagina 
+implementazione inventario  
+implementazione keyevent e mousevent(già articoli,categoria,prest_lib,presto completato) 
+implementazione suono avvio
+implementazione logo brillantinato
+implementazione fattura elettronica (sperimentale)
+esportazione pdf e in csv

@@ -1,0 +1,2650 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="windowModality">
+   <enum>Qt::NonModal</enum>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1398</width>
+    <height>768</height>
+   </rect>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="../fabaria.qrc">
+    <normaloff>:/images/icons32x32.png</normaloff>:/images/icons32x32.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="1" column="0">
+     <widget class="QGroupBox" name="groupBox">
+      <layout class="QGridLayout" name="gridLayout_4">
+       <item row="3" column="0">
+        <spacer name="verticalSpacer_2">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>40</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item row="0" column="1" rowspan="5">
+        <widget class="QDockWidget" name="dockWidget">
+         <property name="minimumSize">
+          <size>
+           <width>260</width>
+           <height>260</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>260</width>
+           <height>524287</height>
+          </size>
+         </property>
+         <property name="sizeIncrement">
+          <size>
+           <width>260</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="baseSize">
+          <size>
+           <width>260</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="floating">
+          <bool>false</bool>
+         </property>
+         <property name="allowedAreas">
+          <set>Qt::NoDockWidgetArea</set>
+         </property>
+         <widget class="QWidget" name="dockWidgetContents"/>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <spacer name="verticalSpacer">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>40</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item row="5" column="0">
+        <spacer name="verticalSpacer_3">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>40</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item row="10" column="0">
+        <spacer name="horizontalSpacer_7">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item row="0" column="0">
+        <widget class="QGroupBox" name="groupBox_3">
+         <property name="maximumSize">
+          <size>
+           <width>16777215</width>
+           <height>120</height>
+          </size>
+         </property>
+         <property name="sizeIncrement">
+          <size>
+           <width>0</width>
+           <height>120</height>
+          </size>
+         </property>
+         <property name="baseSize">
+          <size>
+           <width>0</width>
+           <height>120</height>
+          </size>
+         </property>
+         <property name="title">
+          <string>Visualizza scadenze mese precedente</string>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_11">
+          <item row="0" column="0">
+           <layout class="QGridLayout" name="gridLayout_10"/>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="6" column="0">
+        <widget class="QGroupBox" name="groupBox_6">
+         <property name="title">
+          <string>Visualizza scadenze fatture non pagate</string>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_14">
+          <item row="0" column="0">
+           <layout class="QGridLayout" name="gridLayout_15"/>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="2" column="0">
+        <widget class="QGroupBox" name="groupBox_4">
+         <property name="title">
+          <string>Visualizza scadenze mese successivo</string>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_13">
+          <item row="0" column="0">
+           <layout class="QGridLayout" name="gridLayout_12"/>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="8" column="0">
+        <widget class="QGroupBox" name="groupBox_2">
+         <property name="title">
+          <string>Visualizza lista scadenze </string>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_9">
+          <item row="0" column="0">
+           <layout class="QGridLayout" name="gridLayout_8"/>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="4" column="0">
+        <widget class="QGroupBox" name="groupBox_5">
+         <property name="title">
+          <string>Visualizza scadenze anno corrente</string>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_18">
+          <item row="0" column="0">
+           <layout class="QGridLayout" name="gridLayout_17"/>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="7" column="0">
+        <spacer name="verticalSpacer_4">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>40</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item row="9" column="0">
+        <spacer name="verticalSpacer_5">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>40</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item row="0" column="0">
+     <widget class="QTabWidget" name="tabWidget">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>150</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QWidget {
+	background-color: grey;
+}
+QTabWidget::pane {
+  border-top: 0.5px solid white;
+   border-radius: 5px;
+}
+
+QTabWidget::tab-bar {
+	left: 20px;
+}
+QTabBar::tab {
+	padding: 5px 15px 3px 15px;
+	color: palette(base);
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+}
+QTabBar::tab:hover {
+	background: grey;
+	border: 1px solid grey;
+}
+QTabBar::tab:!selected {
+	border-bottom: 2px solid grey;
+}
+QTabBar::tab:selected {
+	background: palette(shadow);
+	border: 1px solid grey;
+	border-bottom: solid 0px;
+}
+QToolButton {
+	border: 1px;
+    border-radius:5px;
+    color: white;
+}
+
+QToolButton:pressed {
+	background-color: #e0e3ff;
+    color: black;
+}
+QFrame {
+	background-color:palette(shadow);
+	border: 1px solid #8080a0;
+	border-top-left-radius: 7px;
+	border-top-right-radius: 7px;
+}
+
+QLabel {border: 0px none palette(base); background-color:palette(base); height:20px;padding:0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-bottom-left-radius: 4px;
+	border-bottom-right-radius: 4px;
+	border-top: 0px;
+	padding-left:5px;
+  color:rgb(33,122,255);
+}</string>
+      </property>
+      <property name="tabShape">
+       <enum>QTabWidget::Rounded</enum>
+      </property>
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <property name="usesScrollButtons">
+       <bool>false</bool>
+      </property>
+      <property name="documentMode">
+       <bool>false</bool>
+      </property>
+      <property name="tabsClosable">
+       <bool>false</bool>
+      </property>
+      <property name="movable">
+       <bool>true</bool>
+      </property>
+      <property name="tabBarAutoHide">
+       <bool>false</bool>
+      </property>
+      <widget class="QWidget" name="file">
+       <attribute name="title">
+        <string>Home</string>
+       </attribute>
+       <layout class="QGridLayout" name="gridLayout_21">
+        <property name="topMargin">
+         <number>0</number>
+        </property>
+        <property name="bottomMargin">
+         <number>0</number>
+        </property>
+        <property name="verticalSpacing">
+         <number>0</number>
+        </property>
+        <item row="0" column="1">
+         <layout class="QGridLayout" name="gridLayout_22">
+          <property name="spacing">
+           <number>0</number>
+          </property>
+          <item row="1" column="0" colspan="5">
+           <widget class="QLabel" name="label_2">
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>18</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::Box</enum>
+            </property>
+            <property name="text">
+             <string>Anagrafica</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="0" colspan="5">
+           <widget class="QFrame" name="frame_2">
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QGridLayout" name="gridLayout_23" columnstretch="0,0,0,0,0,0,0,0,0,0,0">
+             <property name="bottomMargin">
+              <number>6</number>
+             </property>
+             <property name="verticalSpacing">
+              <number>0</number>
+             </property>
+             <item row="0" column="2">
+              <widget class="QToolButton" name="clienti_3">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                 <horstretch>6</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="font">
+                <font>
+                 <pointsize>9</pointsize>
+                </font>
+               </property>
+               <property name="text">
+                <string>Anagrafica
+clienti</string>
+               </property>
+               <property name="icon">
+                <iconset resource="../fabaria.qrc">
+                 <normaloff>:/images/user-group-properties.png</normaloff>:/images/user-group-properties.png</iconset>
+               </property>
+               <property name="iconSize">
+                <size>
+                 <width>48</width>
+                 <height>48</height>
+                </size>
+               </property>
+               <property name="toolButtonStyle">
+                <enum>Qt::ToolButtonTextUnderIcon</enum>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="6">
+              <widget class="QToolButton" name="ana_causali">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="font">
+                <font>
+                 <pointsize>9</pointsize>
+                </font>
+               </property>
+               <property name="text">
+                <string>Causali di
+trasporto</string>
+               </property>
+               <property name="icon">
+                <iconset resource="../fabaria.qrc">
+                 <normaloff>:/images/pacco.png</normaloff>:/images/pacco.png</iconset>
+               </property>
+               <property name="iconSize">
+                <size>
+                 <width>48</width>
+                 <height>48</height>
+                </size>
+               </property>
+               <property name="toolButtonStyle">
+                <enum>Qt::ToolButtonTextUnderIcon</enum>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="8">
+              <widget class="QToolButton" name="button_agenti">
+               <property name="font">
+                <font>
+                 <pointsize>9</pointsize>
+                </font>
+               </property>
+               <property name="text">
+                <string>Anagrafica
+agenti</string>
+               </property>
+               <property name="icon">
+                <iconset resource="../fabaria.qrc">
+                 <normaloff>:/images/agenti.png</normaloff>:/images/agenti.png</iconset>
+               </property>
+               <property name="iconSize">
+                <size>
+                 <width>48</width>
+                 <height>48</height>
+                </size>
+               </property>
+               <property name="toolButtonStyle">
+                <enum>Qt::ToolButtonTextUnderIcon</enum>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="0">
+              <widget class="QToolButton" name="libri_2">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="font">
+                <font>
+                 <pointsize>9</pointsize>
+                </font>
+               </property>
+               <property name="text">
+                <string>Anagrafica
+prodotti</string>
+               </property>
+               <property name="icon">
+                <iconset resource="../fabaria.qrc">
+                 <normaloff>:/images/excel.png</normaloff>:/images/excel.png</iconset>
+               </property>
+               <property name="iconSize">
+                <size>
+                 <width>48</width>
+                 <height>48</height>
+                </size>
+               </property>
+               <property name="toolButtonStyle">
+                <enum>Qt::ToolButtonTextUnderIcon</enum>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="1">
+              <widget class="QToolButton" name="categoria_2">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                 <horstretch>6</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="font">
+                <font>
+                 <pointsize>9</pointsize>
+                </font>
+               </property>
+               <property name="text">
+                <string>Categorie
+prodotti</string>
+               </property>
+               <property name="icon">
+                <iconset resource="../fabaria.qrc">
+                 <normaloff>:/images/documentation.png</normaloff>:/images/documentation.png</iconset>
+               </property>
+               <property name="iconSize">
+                <size>
+                 <width>48</width>
+                 <height>48</height>
+                </size>
+               </property>
+               <property name="toolButtonStyle">
+                <enum>Qt::ToolButtonTextUnderIcon</enum>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="5">
+              <widget class="QToolButton" name="ana_iva">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="font">
+                <font>
+                 <pointsize>9</pointsize>
+                </font>
+               </property>
+               <property name="text">
+                <string>Anagrafica
+iva </string>
+               </property>
+               <property name="icon">
+                <iconset resource="../fabaria.qrc">
+                 <normaloff>:/images/iva.png</normaloff>:/images/iva.png</iconset>
+               </property>
+               <property name="iconSize">
+                <size>
+                 <width>48</width>
+                 <height>48</height>
+                </size>
+               </property>
+               <property name="toolButtonStyle">
+                <enum>Qt::ToolButtonTextUnderIcon</enum>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="4">
+              <widget class="QToolButton" name="ana_pagam">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="font">
+                <font>
+                 <pointsize>9</pointsize>
+                </font>
+               </property>
+               <property name="text">
+                <string>Anagrafica
+pagamenti</string>
+               </property>
+               <property name="icon">
+                <iconset resource="../fabaria.qrc">
+                 <normaloff>:/images/cash2.png</normaloff>:/images/cash2.png</iconset>
+               </property>
+               <property name="iconSize">
+                <size>
+                 <width>48</width>
+                 <height>48</height>
+                </size>
+               </property>
+               <property name="toolButtonStyle">
+                <enum>Qt::ToolButtonTextUnderIcon</enum>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="3">
+              <widget class="QToolButton" name="ana_forn">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="font">
+                <font>
+                 <pointsize>9</pointsize>
+                </font>
+               </property>
+               <property name="text">
+                <string>Anagrafica
+fornitori</string>
+               </property>
+               <property name="icon">
+                <iconset resource="../fabaria.qrc">
+                 <normaloff>:/images/system-users.png</normaloff>:/images/system-users.png</iconset>
+               </property>
+               <property name="iconSize">
+                <size>
+                 <width>48</width>
+                 <height>48</height>
+                </size>
+               </property>
+               <property name="toolButtonStyle">
+                <enum>Qt::ToolButtonTextUnderIcon</enum>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="7">
+              <widget class="QToolButton" name="ana_banche">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="font">
+                <font>
+                 <pointsize>9</pointsize>
+                </font>
+               </property>
+               <property name="text">
+                <string>Anagrafica
+banche</string>
+               </property>
+               <property name="icon">
+                <iconset resource="../fabaria.qrc">
+                 <normaloff>:/images/banca.png</normaloff>:/images/banca.png</iconset>
+               </property>
+               <property name="iconSize">
+                <size>
+                 <width>48</width>
+                 <height>48</height>
+                </size>
+               </property>
+               <property name="toolButtonStyle">
+                <enum>Qt::ToolButtonTextUnderIcon</enum>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="9">
+              <widget class="QToolButton" name="ana_listini">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="font">
+                <font>
+                 <pointsize>9</pointsize>
+                </font>
+               </property>
+               <property name="text">
+                <string>Anagrafica
+listini</string>
+               </property>
+               <property name="icon">
+                <iconset resource="../fabaria.qrc">
+                 <normaloff>:/images/listino.png</normaloff>:/images/listino.png</iconset>
+               </property>
+               <property name="iconSize">
+                <size>
+                 <width>48</width>
+                 <height>48</height>
+                </size>
+               </property>
+               <property name="toolButtonStyle">
+                <enum>Qt::ToolButtonTextUnderIcon</enum>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="10">
+              <widget class="QToolButton" name="ana_azienda">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="font">
+                <font>
+                 <pointsize>9</pointsize>
+                </font>
+               </property>
+               <property name="text">
+                <string>Anagrafica
+azienda</string>
+               </property>
+               <property name="icon">
+                <iconset resource="../fabaria.qrc">
+                 <normaloff>:/images/azienda.png</normaloff>:/images/azienda.png</iconset>
+               </property>
+               <property name="iconSize">
+                <size>
+                 <width>48</width>
+                 <height>48</height>
+                </size>
+               </property>
+               <property name="toolButtonStyle">
+                <enum>Qt::ToolButtonTextUnderIcon</enum>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item row="0" column="0">
+         <layout class="QGridLayout" name="gridLayout_19">
+          <property name="spacing">
+           <number>0</number>
+          </property>
+          <item row="0" column="0" colspan="3">
+           <widget class="QFrame" name="frame">
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QGridLayout" name="gridLayout_20">
+             <property name="bottomMargin">
+              <number>6</number>
+             </property>
+             <property name="verticalSpacing">
+              <number>0</number>
+             </property>
+             <item row="0" column="0">
+              <widget class="QToolButton" name="esci_fabaria">
+               <property name="font">
+                <font>
+                 <pointsize>9</pointsize>
+                </font>
+               </property>
+               <property name="styleSheet">
+                <string notr="true"/>
+               </property>
+               <property name="text">
+                <string>Esci da
+FabariaGest</string>
+               </property>
+               <property name="icon">
+                <iconset resource="../fabaria.qrc">
+                 <normaloff>:/images/exit.png</normaloff>:/images/exit.png</iconset>
+               </property>
+               <property name="iconSize">
+                <size>
+                 <width>48</width>
+                 <height>48</height>
+                </size>
+               </property>
+               <property name="toolButtonStyle">
+                <enum>Qt::ToolButtonTextUnderIcon</enum>
+               </property>
+               <property name="autoRaise">
+                <bool>false</bool>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item row="1" column="0" colspan="3">
+           <widget class="QLabel" name="label">
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>18</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::Box</enum>
+            </property>
+            <property name="text">
+             <string>Esci</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item row="0" column="2">
+         <spacer name="horizontalSpacer_5">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>40</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="documenti">
+       <attribute name="title">
+        <string>Documenti</string>
+       </attribute>
+       <layout class="QGridLayout" name="gridLayout_27">
+        <property name="topMargin">
+         <number>0</number>
+        </property>
+        <property name="bottomMargin">
+         <number>0</number>
+        </property>
+        <item row="0" column="1">
+         <layout class="QGridLayout" name="gridLayout_6">
+          <property name="spacing">
+           <number>0</number>
+          </property>
+          <item row="0" column="0">
+           <widget class="QFrame" name="frame_5">
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QGridLayout" name="gridLayout_26">
+             <property name="verticalSpacing">
+              <number>0</number>
+             </property>
+             <item row="0" column="2">
+              <widget class="QToolButton" name="preventivi_gest">
+               <property name="font">
+                <font>
+                 <pointsize>9</pointsize>
+                </font>
+               </property>
+               <property name="text">
+                <string>Preventivi
+documenti</string>
+               </property>
+               <property name="icon">
+                <iconset resource="../fabaria.qrc">
+                 <normaloff>:/images/preventivo.png</normaloff>:/images/preventivo.png</iconset>
+               </property>
+               <property name="iconSize">
+                <size>
+                 <width>48</width>
+                 <height>48</height>
+                </size>
+               </property>
+               <property name="toolButtonStyle">
+                <enum>Qt::ToolButtonTextUnderIcon</enum>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="1">
+              <widget class="QToolButton" name="scadenze_2">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="font">
+                <font>
+                 <pointsize>9</pointsize>
+                </font>
+               </property>
+               <property name="text">
+                <string>Fattura di
+vendita</string>
+               </property>
+               <property name="icon">
+                <iconset resource="../fabaria.qrc">
+                 <normaloff>:/images/fattura.png</normaloff>:/images/fattura.png</iconset>
+               </property>
+               <property name="iconSize">
+                <size>
+                 <width>48</width>
+                 <height>48</height>
+                </size>
+               </property>
+               <property name="toolButtonStyle">
+                <enum>Qt::ToolButtonTextUnderIcon</enum>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="5">
+              <widget class="QToolButton" name="riba_em">
+               <property name="font">
+                <font>
+                 <pointsize>9</pointsize>
+                </font>
+               </property>
+               <property name="text">
+                <string>Riba da
+emettere</string>
+               </property>
+               <property name="icon">
+                <iconset resource="../fabaria.qrc">
+                 <normaloff>:/images/riba.png</normaloff>:/images/riba.png</iconset>
+               </property>
+               <property name="iconSize">
+                <size>
+                 <width>48</width>
+                 <height>48</height>
+                </size>
+               </property>
+               <property name="toolButtonStyle">
+                <enum>Qt::ToolButtonTextUnderIcon</enum>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="4">
+              <widget class="QToolButton" name="doc_trasporto">
+               <property name="font">
+                <font>
+                 <pointsize>9</pointsize>
+                </font>
+               </property>
+               <property name="text">
+                <string>DDT
+documenti</string>
+               </property>
+               <property name="icon">
+                <iconset resource="../fabaria.qrc">
+                 <normaloff>:/images/ddt.png</normaloff>:/images/ddt.png</iconset>
+               </property>
+               <property name="iconSize">
+                <size>
+                 <width>48</width>
+                 <height>48</height>
+                </size>
+               </property>
+               <property name="toolButtonStyle">
+                <enum>Qt::ToolButtonTextUnderIcon</enum>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="3">
+              <widget class="QToolButton" name="ordine_gest">
+               <property name="font">
+                <font>
+                 <pointsize>9</pointsize>
+                </font>
+               </property>
+               <property name="text">
+                <string>Ordini
+documenti</string>
+               </property>
+               <property name="icon">
+                <iconset resource="../fabaria.qrc">
+                 <normaloff>:/images/ordine.png</normaloff>:/images/ordine.png</iconset>
+               </property>
+               <property name="iconSize">
+                <size>
+                 <width>48</width>
+                 <height>48</height>
+                </size>
+               </property>
+               <property name="toolButtonStyle">
+                <enum>Qt::ToolButtonTextUnderIcon</enum>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="0">
+              <widget class="QToolButton" name="cl2_2">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="font">
+                <font>
+                 <pointsize>9</pointsize>
+                </font>
+               </property>
+               <property name="text">
+                <string>Fattura di
+acquisto</string>
+               </property>
+               <property name="icon">
+                <iconset resource="../fabaria.qrc">
+                 <normaloff>:/images/fattura.png</normaloff>:/images/fattura.png</iconset>
+               </property>
+               <property name="iconSize">
+                <size>
+                 <width>48</width>
+                 <height>48</height>
+                </size>
+               </property>
+               <property name="toolButtonStyle">
+                <enum>Qt::ToolButtonTextUnderIcon</enum>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <widget class="QLabel" name="label_5">
+            <property name="font">
+             <font>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>Documenti</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item row="0" column="2">
+         <layout class="QGridLayout" name="gridLayout_2">
+          <property name="spacing">
+           <number>0</number>
+          </property>
+          <item row="0" column="0">
+           <widget class="QFrame" name="frame_3">
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QGridLayout" name="gridLayout_24">
+             <property name="horizontalSpacing">
+              <number>6</number>
+             </property>
+             <property name="verticalSpacing">
+              <number>0</number>
+             </property>
+             <item row="0" column="4">
+              <widget class="QToolButton" name="scadenze_gest">
+               <property name="font">
+                <font>
+                 <pointsize>9</pointsize>
+                </font>
+               </property>
+               <property name="text">
+                <string>Gestione
+scadenze</string>
+               </property>
+               <property name="icon">
+                <iconset resource="../fabaria.qrc">
+                 <normaloff>:/images/scadenze.png</normaloff>:/images/scadenze.png</iconset>
+               </property>
+               <property name="iconSize">
+                <size>
+                 <width>48</width>
+                 <height>48</height>
+                </size>
+               </property>
+               <property name="toolButtonStyle">
+                <enum>Qt::ToolButtonTextUnderIcon</enum>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="6">
+              <widget class="QToolButton" name="ch_ann_cont">
+               <property name="font">
+                <font>
+                 <pointsize>9</pointsize>
+                </font>
+               </property>
+               <property name="text">
+                <string>Chiudi anno
+contabile</string>
+               </property>
+               <property name="icon">
+                <iconset resource="../fabaria.qrc">
+                 <normaloff>:/images/scadenze.png</normaloff>:/images/scadenze.png</iconset>
+               </property>
+               <property name="iconSize">
+                <size>
+                 <width>48</width>
+                 <height>48</height>
+                </size>
+               </property>
+               <property name="toolButtonStyle">
+                <enum>Qt::ToolButtonTextUnderIcon</enum>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="5">
+              <widget class="QToolButton" name="misura_gest">
+               <property name="font">
+                <font>
+                 <pointsize>9</pointsize>
+                </font>
+               </property>
+               <property name="text">
+                <string>Gestione
+misure</string>
+               </property>
+               <property name="icon">
+                <iconset resource="../fabaria.qrc">
+                 <normaloff>:/images/misura.png</normaloff>:/images/misura.png</iconset>
+               </property>
+               <property name="iconSize">
+                <size>
+                 <width>48</width>
+                 <height>48</height>
+                </size>
+               </property>
+               <property name="toolButtonStyle">
+                <enum>Qt::ToolButtonTextUnderIcon</enum>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="7">
+              <widget class="QToolButton" name="sel_anno_es">
+               <property name="font">
+                <font>
+                 <pointsize>9</pointsize>
+                </font>
+               </property>
+               <property name="text">
+                <string>Seleziona anno
+esercizio</string>
+               </property>
+               <property name="icon">
+                <iconset resource="../fabaria.qrc">
+                 <normaloff>:/images/scadenze.png</normaloff>:/images/scadenze.png</iconset>
+               </property>
+               <property name="iconSize">
+                <size>
+                 <width>48</width>
+                 <height>48</height>
+                </size>
+               </property>
+               <property name="toolButtonStyle">
+                <enum>Qt::ToolButtonTextUnderIcon</enum>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="9">
+              <widget class="QToolButton" name="vis_statistiche">
+               <property name="font">
+                <font>
+                 <pointsize>9</pointsize>
+                </font>
+               </property>
+               <property name="text">
+                <string>Visualizza
+statistiche</string>
+               </property>
+               <property name="icon">
+                <iconset resource="../fabaria.qrc">
+                 <normaloff>:/images/torta.png</normaloff>:/images/torta.png</iconset>
+               </property>
+               <property name="iconSize">
+                <size>
+                 <width>48</width>
+                 <height>48</height>
+                </size>
+               </property>
+               <property name="toolButtonStyle">
+                <enum>Qt::ToolButtonTextUnderIcon</enum>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="2">
+              <widget class="QToolButton" name="cod_fiscale">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="font">
+                <font>
+                 <pointsize>9</pointsize>
+                </font>
+               </property>
+               <property name="text">
+                <string>Codice
+fiscale</string>
+               </property>
+               <property name="icon">
+                <iconset resource="../fabaria.qrc">
+                 <normaloff>:/images/codicefiscale.png</normaloff>:/images/codicefiscale.png</iconset>
+               </property>
+               <property name="iconSize">
+                <size>
+                 <width>48</width>
+                 <height>48</height>
+                </size>
+               </property>
+               <property name="toolButtonStyle">
+                <enum>Qt::ToolButtonTextUnderIcon</enum>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="8">
+              <widget class="QToolButton" name="storico_mail">
+               <property name="font">
+                <font>
+                 <pointsize>9</pointsize>
+                </font>
+               </property>
+               <property name="text">
+                <string>Visualizza
+storico email</string>
+               </property>
+               <property name="icon">
+                <iconset resource="../fabaria.qrc">
+                 <normaloff>:/images/invio_mail.png</normaloff>:/images/invio_mail.png</iconset>
+               </property>
+               <property name="iconSize">
+                <size>
+                 <width>48</width>
+                 <height>48</height>
+                </size>
+               </property>
+               <property name="toolButtonStyle">
+                <enum>Qt::ToolButtonTextUnderIcon</enum>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="10">
+              <widget class="QToolButton" name="sel_azienda">
+               <property name="font">
+                <font>
+                 <pointsize>9</pointsize>
+                </font>
+               </property>
+               <property name="text">
+                <string>Seleziona
+azienda</string>
+               </property>
+               <property name="icon">
+                <iconset resource="../fabaria.qrc">
+                 <normaloff>:/images/azienda.png</normaloff>:/images/azienda.png</iconset>
+               </property>
+               <property name="iconSize">
+                <size>
+                 <width>48</width>
+                 <height>48</height>
+                </size>
+               </property>
+               <property name="toolButtonStyle">
+                <enum>Qt::ToolButtonTextUnderIcon</enum>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <widget class="QLabel" name="label_3">
+            <property name="font">
+             <font>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::Box</enum>
+            </property>
+            <property name="text">
+             <string>Gestione</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item row="0" column="3">
+         <spacer name="horizontalSpacer">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>291</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="tab">
+       <attribute name="title">
+        <string>Situazione</string>
+       </attribute>
+       <layout class="QGridLayout" name="gridLayout_3">
+        <property name="topMargin">
+         <number>0</number>
+        </property>
+        <property name="bottomMargin">
+         <number>0</number>
+        </property>
+        <property name="verticalSpacing">
+         <number>0</number>
+        </property>
+        <item row="0" column="0">
+         <layout class="QGridLayout" name="gridLayout_29">
+          <property name="spacing">
+           <number>0</number>
+          </property>
+          <item row="0" column="0">
+           <widget class="QFrame" name="frame_7">
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QGridLayout" name="gridLayout_30">
+             <property name="verticalSpacing">
+              <number>0</number>
+             </property>
+             <item row="0" column="2">
+              <widget class="QToolButton" name="caric_maga">
+               <property name="font">
+                <font>
+                 <pointsize>9</pointsize>
+                </font>
+               </property>
+               <property name="text">
+                <string>Carico
+magazzino</string>
+               </property>
+               <property name="icon">
+                <iconset resource="../fabaria.qrc">
+                 <normaloff>:/images/pacco.png</normaloff>:/images/pacco.png</iconset>
+               </property>
+               <property name="iconSize">
+                <size>
+                 <width>48</width>
+                 <height>48</height>
+                </size>
+               </property>
+               <property name="toolButtonStyle">
+                <enum>Qt::ToolButtonTextUnderIcon</enum>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="1">
+              <widget class="QToolButton" name="sel_magazzino">
+               <property name="font">
+                <font>
+                 <pointsize>9</pointsize>
+                </font>
+               </property>
+               <property name="text">
+                <string>Seleziona
+magazzino</string>
+               </property>
+               <property name="icon">
+                <iconset resource="../fabaria.qrc">
+                 <normaloff>:/images/pacco.png</normaloff>:/images/pacco.png</iconset>
+               </property>
+               <property name="iconSize">
+                <size>
+                 <width>48</width>
+                 <height>48</height>
+                </size>
+               </property>
+               <property name="toolButtonStyle">
+                <enum>Qt::ToolButtonTextUnderIcon</enum>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="3">
+              <widget class="QToolButton" name="scar_maga">
+               <property name="font">
+                <font>
+                 <pointsize>9</pointsize>
+                </font>
+               </property>
+               <property name="text">
+                <string>Scarico
+magazzino</string>
+               </property>
+               <property name="icon">
+                <iconset resource="../fabaria.qrc">
+                 <normaloff>:/images/pacco.png</normaloff>:/images/pacco.png</iconset>
+               </property>
+               <property name="iconSize">
+                <size>
+                 <width>48</width>
+                 <height>48</height>
+                </size>
+               </property>
+               <property name="toolButtonStyle">
+                <enum>Qt::ToolButtonTextUnderIcon</enum>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="0">
+              <widget class="QToolButton" name="crea_magazzino">
+               <property name="font">
+                <font>
+                 <pointsize>9</pointsize>
+                </font>
+               </property>
+               <property name="text">
+                <string>Crea
+magazzino</string>
+               </property>
+               <property name="icon">
+                <iconset resource="../fabaria.qrc">
+                 <normaloff>:/images/pacco.png</normaloff>:/images/pacco.png</iconset>
+               </property>
+               <property name="iconSize">
+                <size>
+                 <width>48</width>
+                 <height>48</height>
+                </size>
+               </property>
+               <property name="toolButtonStyle">
+                <enum>Qt::ToolButtonTextUnderIcon</enum>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <widget class="QLabel" name="label_7">
+            <property name="font">
+             <font>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>Magazzino</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item row="0" column="1">
+         <layout class="QGridLayout" name="gridLayout_31">
+          <property name="spacing">
+           <number>0</number>
+          </property>
+          <item row="0" column="0">
+           <widget class="QFrame" name="frame_8">
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QGridLayout" name="gridLayout_32">
+             <property name="verticalSpacing">
+              <number>0</number>
+             </property>
+             <item row="0" column="1">
+              <widget class="QToolButton" name="sit_agent">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Maximum" vsizetype="Fixed">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="font">
+                <font>
+                 <pointsize>9</pointsize>
+                </font>
+               </property>
+               <property name="text">
+                <string>Situazione
+agenti</string>
+               </property>
+               <property name="icon">
+                <iconset resource="../fabaria.qrc">
+                 <normaloff>:/images/agenti.png</normaloff>:/images/agenti.png</iconset>
+               </property>
+               <property name="iconSize">
+                <size>
+                 <width>48</width>
+                 <height>48</height>
+                </size>
+               </property>
+               <property name="toolButtonStyle">
+                <enum>Qt::ToolButtonTextUnderIcon</enum>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="0">
+              <widget class="QToolButton" name="registro_iva">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Maximum" vsizetype="Fixed">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="font">
+                <font>
+                 <pointsize>9</pointsize>
+                </font>
+               </property>
+               <property name="text">
+                <string>Registro
+iva</string>
+               </property>
+               <property name="icon">
+                <iconset resource="../fabaria.qrc">
+                 <normaloff>:/images/cash2.png</normaloff>:/images/cash2.png</iconset>
+               </property>
+               <property name="iconSize">
+                <size>
+                 <width>48</width>
+                 <height>48</height>
+                </size>
+               </property>
+               <property name="toolButtonStyle">
+                <enum>Qt::ToolButtonTextUnderIcon</enum>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <widget class="QLabel" name="label_8">
+            <property name="font">
+             <font>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>Situazione</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item row="0" column="2">
+         <spacer name="horizontalSpacer_9">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>1246</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="strumenti">
+       <attribute name="title">
+        <string>Strumenti</string>
+       </attribute>
+       <layout class="QGridLayout" name="gridLayout_7">
+        <property name="topMargin">
+         <number>0</number>
+        </property>
+        <property name="bottomMargin">
+         <number>0</number>
+        </property>
+        <item row="0" column="0">
+         <layout class="QGridLayout" name="gridLayout_33">
+          <property name="spacing">
+           <number>0</number>
+          </property>
+          <item row="0" column="0">
+           <widget class="QFrame" name="frame_9">
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QGridLayout" name="gridLayout_5">
+             <property name="verticalSpacing">
+              <number>0</number>
+             </property>
+             <item row="0" column="0">
+              <widget class="QToolButton" name="gest_plugin">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="font">
+                <font>
+                 <pointsize>9</pointsize>
+                </font>
+               </property>
+               <property name="text">
+                <string>Gestione
+plugin</string>
+               </property>
+               <property name="icon">
+                <iconset resource="../../backup_restore_db/images.qrc">
+                 <normaloff>:/images/vcs_add.png</normaloff>:/images/vcs_add.png</iconset>
+               </property>
+               <property name="iconSize">
+                <size>
+                 <width>48</width>
+                 <height>48</height>
+                </size>
+               </property>
+               <property name="toolButtonStyle">
+                <enum>Qt::ToolButtonTextUnderIcon</enum>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="2">
+              <widget class="QToolButton" name="agg_database">
+               <property name="font">
+                <font>
+                 <pointsize>9</pointsize>
+                </font>
+               </property>
+               <property name="text">
+                <string>Aggiorna
+database</string>
+               </property>
+               <property name="icon">
+                <iconset resource="../fabaria.qrc">
+                 <normaloff>:/images/system-software-update.png</normaloff>:/images/system-software-update.png</iconset>
+               </property>
+               <property name="iconSize">
+                <size>
+                 <width>48</width>
+                 <height>48</height>
+                </size>
+               </property>
+               <property name="toolButtonStyle">
+                <enum>Qt::ToolButtonTextUnderIcon</enum>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="3">
+              <widget class="QToolButton" name="add_dropbox">
+               <property name="font">
+                <font>
+                 <pointsize>9</pointsize>
+                </font>
+               </property>
+               <property name="text">
+                <string>Backup e ripristino
+con DropBox</string>
+               </property>
+               <property name="icon">
+                <iconset resource="../fabaria.qrc">
+                 <normaloff>:/images/dropbox.png</normaloff>:/images/dropbox.png</iconset>
+               </property>
+               <property name="iconSize">
+                <size>
+                 <width>48</width>
+                 <height>48</height>
+                </size>
+               </property>
+               <property name="toolButtonStyle">
+                <enum>Qt::ToolButtonTextUnderIcon</enum>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="1">
+              <widget class="QToolButton" name="preferenze_2">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="font">
+                <font>
+                 <pointsize>9</pointsize>
+                </font>
+               </property>
+               <property name="text">
+                <string>Impostazioni
+FabariaGest</string>
+               </property>
+               <property name="icon">
+                <iconset resource="../fabaria.qrc">
+                 <normaloff>:/images/preferences-system.png</normaloff>:/images/preferences-system.png</iconset>
+               </property>
+               <property name="iconSize">
+                <size>
+                 <width>48</width>
+                 <height>48</height>
+                </size>
+               </property>
+               <property name="toolButtonStyle">
+                <enum>Qt::ToolButtonTextUnderIcon</enum>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="4">
+              <widget class="QToolButton" name="install_plugin">
+               <property name="font">
+                <font>
+                 <pointsize>9</pointsize>
+                </font>
+               </property>
+               <property name="text">
+                <string>Installa
+plugin</string>
+               </property>
+               <property name="icon">
+                <iconset resource="../fabaria.qrc">
+                 <normaloff>:/images/plugin.png</normaloff>:/images/plugin.png</iconset>
+               </property>
+               <property name="iconSize">
+                <size>
+                 <width>48</width>
+                 <height>48</height>
+                </size>
+               </property>
+               <property name="toolButtonStyle">
+                <enum>Qt::ToolButtonTextUnderIcon</enum>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <widget class="QLabel" name="label_9">
+            <property name="font">
+             <font>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>Strumenti</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item row="0" column="1">
+         <spacer name="horizontalSpacer_6">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>40</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="plugin_tab">
+       <attribute name="title">
+        <string>Plugin</string>
+       </attribute>
+       <layout class="QGridLayout" name="gridLayout_16">
+        <property name="topMargin">
+         <number>0</number>
+        </property>
+        <property name="bottomMargin">
+         <number>0</number>
+        </property>
+        <item row="0" column="0">
+         <layout class="QGridLayout" name="gridLayout_34">
+          <property name="spacing">
+           <number>0</number>
+          </property>
+          <item row="0" column="0">
+           <widget class="QFrame" name="frame_10">
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout"/>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <widget class="QLabel" name="label_10">
+            <property name="font">
+             <font>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>Plugin</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item row="0" column="1">
+         <spacer name="horizontalSpacer_8">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>40</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="info">
+       <attribute name="title">
+        <string>Informazioni</string>
+       </attribute>
+       <layout class="QGridLayout" name="gridLayout_25">
+        <property name="topMargin">
+         <number>0</number>
+        </property>
+        <property name="bottomMargin">
+         <number>0</number>
+        </property>
+        <item row="0" column="0">
+         <layout class="QGridLayout" name="gridLayout_36">
+          <property name="spacing">
+           <number>0</number>
+          </property>
+          <item row="0" column="0">
+           <widget class="QFrame" name="frame_11">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QGridLayout" name="gridLayout_37">
+             <property name="verticalSpacing">
+              <number>0</number>
+             </property>
+             <item row="0" column="2">
+              <widget class="QToolButton" name="agg_button">
+               <property name="font">
+                <font>
+                 <pointsize>9</pointsize>
+                </font>
+               </property>
+               <property name="text">
+                <string>Ricerca
+aggionamento</string>
+               </property>
+               <property name="icon">
+                <iconset resource="../fabaria.qrc">
+                 <normaloff>:/images/system-software-update.png</normaloff>:/images/system-software-update.png</iconset>
+               </property>
+               <property name="iconSize">
+                <size>
+                 <width>48</width>
+                 <height>48</height>
+                </size>
+               </property>
+               <property name="toolButtonStyle">
+                <enum>Qt::ToolButtonTextUnderIcon</enum>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="1">
+              <widget class="QToolButton" name="about_qt_2">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                 <horstretch>6</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="font">
+                <font>
+                 <pointsize>9</pointsize>
+                </font>
+               </property>
+               <property name="text">
+                <string>Tutorial 
+FabariaGest</string>
+               </property>
+               <property name="icon">
+                <iconset resource="../fabaria.qrc">
+                 <normaloff>:/images/svn_status.png</normaloff>:/images/svn_status.png</iconset>
+               </property>
+               <property name="iconSize">
+                <size>
+                 <width>48</width>
+                 <height>48</height>
+                </size>
+               </property>
+               <property name="toolButtonStyle">
+                <enum>Qt::ToolButtonTextUnderIcon</enum>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="0">
+              <widget class="QToolButton" name="about_luxury_2">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="font">
+                <font>
+                 <pointsize>9</pointsize>
+                </font>
+               </property>
+               <property name="text">
+                <string>Informazioni
+FabariaGest</string>
+               </property>
+               <property name="icon">
+                <iconset resource="../fabaria.qrc">
+                 <normaloff>:/images/svn_status.png</normaloff>:/images/svn_status.png</iconset>
+               </property>
+               <property name="iconSize">
+                <size>
+                 <width>48</width>
+                 <height>48</height>
+                </size>
+               </property>
+               <property name="toolButtonStyle">
+                <enum>Qt::ToolButtonTextUnderIcon</enum>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <widget class="QLabel" name="label_11">
+            <property name="font">
+             <font>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>Informazioni</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item row="0" column="1">
+         <spacer name="horizontalSpacer_3">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>40</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1398</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="nativeMenuBar">
+    <bool>false</bool>
+   </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>Fi&amp;le</string>
+    </property>
+    <addaction name="close_ac"/>
+   </widget>
+   <widget class="QMenu" name="menuAnagrafica">
+    <property name="title">
+     <string>A&amp;nagrafica </string>
+    </property>
+    <addaction name="clienti"/>
+    <addaction name="separator"/>
+    <addaction name="action_articoli"/>
+    <addaction name="separator"/>
+    <addaction name="actionCaterorie_libri"/>
+    <addaction name="separator"/>
+    <addaction name="actionAnagrafica_pagamenti"/>
+    <addaction name="separator"/>
+    <addaction name="actionCausali_di_trasporto"/>
+    <addaction name="separator"/>
+    <addaction name="actionAnagrafica_iva"/>
+    <addaction name="separator"/>
+    <addaction name="actionAnagrafica_banche"/>
+    <addaction name="separator"/>
+    <addaction name="actionAnagrafica_azienda"/>
+    <addaction name="separator"/>
+    <addaction name="actionAnagraficafornitori"/>
+    <addaction name="separator"/>
+    <addaction name="actionAnagrafica_listini"/>
+    <addaction name="separator"/>
+    <addaction name="actionAnagrafica_agenti"/>
+   </widget>
+   <widget class="QMenu" name="menuStrumenti_2">
+    <property name="title">
+     <string>Stru&amp;menti</string>
+    </property>
+    <widget class="QMenu" name="menuPlugin_2">
+     <property name="title">
+      <string>P&amp;lugin</string>
+     </property>
+     <addaction name="separator"/>
+    </widget>
+    <addaction name="separator"/>
+    <addaction name="actionPreferenze"/>
+    <addaction name="separator"/>
+    <addaction name="actionGestione_plugin"/>
+    <addaction name="separator"/>
+    <addaction name="actionAggiorna_database"/>
+    <addaction name="separator"/>
+    <addaction name="actionBackup_e_ripristino_con_DropBox"/>
+    <addaction name="separator"/>
+    <addaction name="actionInstalla_plugin"/>
+    <addaction name="separator"/>
+    <addaction name="menuPlugin_2"/>
+   </widget>
+   <widget class="QMenu" name="menuInformazioni">
+    <property name="title">
+     <string>&amp;Informazioni</string>
+    </property>
+    <addaction name="actionAbout_2"/>
+    <addaction name="separator"/>
+    <addaction name="actionAbout_Qt"/>
+    <addaction name="actionRicerca_aggiornamento"/>
+   </widget>
+   <widget class="QMenu" name="menuDocumenti">
+    <property name="title">
+     <string>Doc&amp;umenti</string>
+    </property>
+    <addaction name="actionGestione_preventivi"/>
+    <addaction name="separator"/>
+    <addaction name="actionGestione_ordini"/>
+    <addaction name="separator"/>
+    <addaction name="actionGestione_DDT"/>
+    <addaction name="separator"/>
+    <addaction name="actionFattura_d_aquisto"/>
+    <addaction name="separator"/>
+    <addaction name="actionFattura_di_vendita_2"/>
+    <addaction name="separator"/>
+    <addaction name="actionRiba_da_emettere"/>
+   </widget>
+   <widget class="QMenu" name="menuGestione">
+    <property name="title">
+     <string>&amp;Gestione</string>
+    </property>
+    <addaction name="actionCalcola_codicefiscale"/>
+    <addaction name="separator"/>
+    <addaction name="actionGestione_scadenze"/>
+    <addaction name="separator"/>
+    <addaction name="actionGestione_misure"/>
+    <addaction name="separator"/>
+    <addaction name="actionChiudi_anno_contabile"/>
+    <addaction name="separator"/>
+    <addaction name="actionSeleziona_anno_esercizio"/>
+    <addaction name="actionVisualizza_storico_email"/>
+    <addaction name="separator"/>
+    <addaction name="actionVisualizza_statitiche"/>
+    <addaction name="separator"/>
+    <addaction name="actionSituazione_agenti"/>
+    <addaction name="separator"/>
+    <addaction name="actionSeleziona_azienda"/>
+   </widget>
+   <widget class="QMenu" name="menuGestione_iva">
+    <property name="title">
+     <string>Situ&amp;azione</string>
+    </property>
+    <addaction name="actionRegistro_iva"/>
+    <addaction name="actionSituazione_agenti_2"/>
+   </widget>
+   <widget class="QMenu" name="menuMagazzino">
+    <property name="title">
+     <string>Maga&amp;zzino</string>
+    </property>
+    <addaction name="actionCrea_magazzino"/>
+    <addaction name="separator"/>
+    <addaction name="actionSeleziona_magazzino"/>
+    <addaction name="separator"/>
+    <addaction name="actionCarico_magazzino"/>
+    <addaction name="separator"/>
+    <addaction name="actionScarico_magazzino"/>
+    <addaction name="separator"/>
+   </widget>
+   <addaction name="menuFile"/>
+   <addaction name="menuAnagrafica"/>
+   <addaction name="menuGestione"/>
+   <addaction name="menuMagazzino"/>
+   <addaction name="menuDocumenti"/>
+   <addaction name="menuGestione_iva"/>
+   <addaction name="menuStrumenti_2"/>
+   <addaction name="menuInformazioni"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="close_ac">
+   <property name="icon">
+    <iconset resource="../fabaria.qrc">
+     <normaloff>:/images/application-exit.png</normaloff>:/images/application-exit.png</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;Esci</string>
+   </property>
+  </action>
+  <action name="clienti">
+   <property name="icon">
+    <iconset resource="../fabaria.qrc">
+     <normaloff>:/images/system-users.png</normaloff>:/images/system-users.png</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;Anagrafica clienti</string>
+   </property>
+  </action>
+  <action name="action_articoli">
+   <property name="icon">
+    <iconset resource="../fabaria.qrc">
+     <normaloff>:/images/excel.png</normaloff>:/images/excel.png</iconset>
+   </property>
+   <property name="text">
+    <string>Anagrafica &amp;prodotti</string>
+   </property>
+  </action>
+  <action name="fiscale">
+   <property name="icon">
+    <iconset resource="../fabaria.qrc">
+     <normaloff>:/images/codicefisc.png</normaloff>:/images/codicefisc.png</iconset>
+   </property>
+   <property name="text">
+    <string>Codice fiscale</string>
+   </property>
+  </action>
+  <action name="actionAbout_2">
+   <property name="icon">
+    <iconset resource="../fabaria.qrc">
+     <normaloff>:/images/svn_status.png</normaloff>:/images/svn_status.png</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;About</string>
+   </property>
+  </action>
+  <action name="actionAzienda">
+   <property name="icon">
+    <iconset resource="../fabaria.qrc">
+     <normaloff>:/images/logo_p32.png</normaloff>:/images/logo_p32.png</iconset>
+   </property>
+   <property name="text">
+    <string>Anagrafica azienda</string>
+   </property>
+   <property name="iconText">
+    <string extracomment="Anagrafica zzienda">Anagrafica azienda</string>
+   </property>
+   <property name="toolTip">
+    <string extracomment="Anagrafica azienda">Anagrafica azienda</string>
+   </property>
+   <property name="statusTip">
+    <string extracomment="Anagrafica azienda"/>
+   </property>
+  </action>
+  <action name="actionChiudi_assistenza">
+   <property name="icon">
+    <iconset resource="../fabaria.qrc">
+     <normaloff>:/images/edit-delete.png</normaloff>:/images/edit-delete.png</iconset>
+   </property>
+   <property name="text">
+    <string>Chiudi assistenza</string>
+   </property>
+  </action>
+  <action name="actionFatture_acquisto">
+   <property name="icon">
+    <iconset resource="../fabaria.qrc">
+     <normaloff>:/images/logo_p32.png</normaloff>:/images/logo_p32.png</iconset>
+   </property>
+   <property name="text">
+    <string>Fatture acquisto</string>
+   </property>
+  </action>
+  <action name="actionAnagrafica_fornitori">
+   <property name="icon">
+    <iconset resource="../fabaria.qrc">
+     <normaloff>:/images/system-users.png</normaloff>:/images/system-users.png</iconset>
+   </property>
+   <property name="text">
+    <string>Anagrafica fornitori</string>
+   </property>
+  </action>
+  <action name="actionAnagrafica_tipo_porto">
+   <property name="text">
+    <string>Anagrafica tipo porto</string>
+   </property>
+  </action>
+  <action name="actionAnagrafiche_banche">
+   <property name="text">
+    <string>Anagrafica banche</string>
+   </property>
+  </action>
+  <action name="actionAnagrafica_causali_di_trasporo">
+   <property name="text">
+    <string>Anagrafica causali di trasporo</string>
+   </property>
+  </action>
+  <action name="ivan">
+   <property name="icon">
+    <iconset resource="../fabaria.qrc">
+     <normaloff>:/images/iva.png</normaloff>:/images/iva.png</iconset>
+   </property>
+   <property name="text">
+    <string>Anagrafica Iva</string>
+   </property>
+  </action>
+  <action name="actionAnagrafica_categorie">
+   <property name="text">
+    <string>Anagrafica categorie</string>
+   </property>
+  </action>
+  <action name="actionCaterorie_libri">
+   <property name="icon">
+    <iconset resource="../fabaria.qrc">
+     <normaloff>:/images/documentation.png</normaloff>:/images/documentation.png</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;Categorie prodotti</string>
+   </property>
+   <property name="toolTip">
+    <string>Categorie libri</string>
+   </property>
+  </action>
+  <action name="actionAbout_Qt">
+   <property name="icon">
+    <iconset resource="../fabaria.qrc">
+     <normaloff>:/images/svn_status.png</normaloff>:/images/svn_status.png</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;Documentazione</string>
+   </property>
+  </action>
+  <action name="actionPreferenze">
+   <property name="icon">
+    <iconset resource="../fabaria.qrc">
+     <normaloff>:/images/preferences-system.png</normaloff>:/images/preferences-system.png</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;Preferenze</string>
+   </property>
+  </action>
+  <action name="actionLancia_wizard_di_configurazione">
+   <property name="icon">
+    <iconset resource="../fabaria.qrc">
+     <normaloff>:/images/system-run.png</normaloff>:/images/system-run.png</iconset>
+   </property>
+   <property name="text">
+    <string>Lancia wizard di configurazione</string>
+   </property>
+  </action>
+  <action name="actionGestione_plugin">
+   <property name="icon">
+    <iconset resource="../../backup_restore_db/images.qrc">
+     <normaloff>:/images/vcs_add.png</normaloff>:/images/vcs_add.png</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;Gestione plugin</string>
+   </property>
+  </action>
+  <action name="actionAnagrafica_pagamenti">
+   <property name="icon">
+    <iconset resource="../fabaria.qrc">
+     <normaloff>:/images/cash2.png</normaloff>:/images/cash2.png</iconset>
+   </property>
+   <property name="text">
+    <string>A&amp;nagrafica pagamenti</string>
+   </property>
+  </action>
+  <action name="actionCalcola_codicefiscale">
+   <property name="icon">
+    <iconset resource="../fabaria.qrc">
+     <normaloff>:/images/codicefisc.png</normaloff>:/images/codicefisc.png</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;Calcola codicefiscale</string>
+   </property>
+  </action>
+  <action name="actionCausali_di_trasporto">
+   <property name="icon">
+    <iconset resource="../fabaria.qrc">
+     <normaloff>:/images/install.png</normaloff>:/images/install.png</iconset>
+   </property>
+   <property name="text">
+    <string>Causali &amp;di trasporto</string>
+   </property>
+  </action>
+  <action name="actionAnagrafica_iva">
+   <property name="icon">
+    <iconset resource="../fabaria.qrc">
+     <normaloff>:/images/iva.png</normaloff>:/images/iva.png</iconset>
+   </property>
+   <property name="text">
+    <string>Anagrafica &amp;iva</string>
+   </property>
+  </action>
+  <action name="actionAnagrafica_banche">
+   <property name="icon">
+    <iconset resource="../fabaria.qrc">
+     <normaloff>:/images/banca.png</normaloff>:/images/banca.png</iconset>
+   </property>
+   <property name="text">
+    <string>Anagrafica &amp;banche</string>
+   </property>
+  </action>
+  <action name="actionAnagrafica_azienda">
+   <property name="icon">
+    <iconset resource="../fabaria.qrc">
+     <normaloff>:/images/azienda.png</normaloff>:/images/azienda.png</iconset>
+   </property>
+   <property name="text">
+    <string>Ana&amp;grafica azienda</string>
+   </property>
+  </action>
+  <action name="actionFattura_d_aquisto">
+   <property name="icon">
+    <iconset resource="../fabaria.qrc">
+     <normaloff>:/images/fattura.png</normaloff>:/images/fattura.png</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;Fattura d'aquisto</string>
+   </property>
+  </action>
+  <action name="actionAnagraficafornitori">
+   <property name="icon">
+    <iconset resource="../fabaria.qrc">
+     <normaloff>:/images/system-users.png</normaloff>:/images/system-users.png</iconset>
+   </property>
+   <property name="text">
+    <string>Anagrafica &amp;fornitori</string>
+   </property>
+  </action>
+  <action name="actionFattura_di_vendita">
+   <property name="text">
+    <string>Fattura di vendita</string>
+   </property>
+  </action>
+  <action name="actionFattura_di_vendita_2">
+   <property name="icon">
+    <iconset resource="../fabaria.qrc">
+     <normaloff>:/images/fattura.png</normaloff>:/images/fattura.png</iconset>
+   </property>
+   <property name="text">
+    <string>Fattura &amp;di vendita</string>
+   </property>
+  </action>
+  <action name="actionCarico_magazzino">
+   <property name="icon">
+    <iconset resource="../fabaria.qrc">
+     <normaloff>:/images/pacco.png</normaloff>:/images/pacco.png</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;Carico magazzino</string>
+   </property>
+  </action>
+  <action name="actionScarico_magazzino">
+   <property name="icon">
+    <iconset resource="../fabaria.qrc">
+     <normaloff>:/images/pacco.png</normaloff>:/images/pacco.png</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;Scarico magazzino</string>
+   </property>
+  </action>
+  <action name="actionAcquista_nuova_licenza">
+   <property name="text">
+    <string>Acquista nuova licenza</string>
+   </property>
+  </action>
+  <action name="actionInserisci_nuovo_numero_di_serie">
+   <property name="text">
+    <string>Inserisci nuovo numero di serie</string>
+   </property>
+  </action>
+  <action name="actionInstalla_plugin">
+   <property name="text">
+    <string>&amp;Installa plugin</string>
+   </property>
+  </action>
+  <action name="actionGestione_misure">
+   <property name="icon">
+    <iconset resource="../fabaria.qrc">
+     <normaloff>:/images/misura.png</normaloff>:/images/misura.png</iconset>
+   </property>
+   <property name="text">
+    <string>Gestione &amp;misure</string>
+   </property>
+  </action>
+  <action name="actionGestione_scadenze">
+   <property name="icon">
+    <iconset resource="../fabaria.qrc">
+     <normaloff>:/images/scadenze.png</normaloff>:/images/scadenze.png</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;Gestione scadenze</string>
+   </property>
+  </action>
+  <action name="actionRiba_da_emettere">
+   <property name="icon">
+    <iconset resource="../fabaria.qrc">
+     <normaloff>:/images/riba.png</normaloff>:/images/riba.png</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;Riba da emettere</string>
+   </property>
+  </action>
+  <action name="actionChiudi_anno_contabile">
+   <property name="icon">
+    <iconset resource="../fabaria.qrc">
+     <normaloff>:/images/scadenze.png</normaloff>:/images/scadenze.png</iconset>
+   </property>
+   <property name="text">
+    <string>C&amp;hiudi anno contabile</string>
+   </property>
+  </action>
+  <action name="actionSeleziona_anno_esercizio">
+   <property name="icon">
+    <iconset resource="../fabaria.qrc">
+     <normaloff>:/images/scadenze.png</normaloff>:/images/scadenze.png</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;Seleziona anno esercizio</string>
+   </property>
+  </action>
+  <action name="actionGestione_preventivi">
+   <property name="icon">
+    <iconset resource="../fabaria.qrc">
+     <normaloff>:/images/preventivo.png</normaloff>:/images/preventivo.png</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;Gestione preventivi</string>
+   </property>
+  </action>
+  <action name="actionAnagrafica_listini">
+   <property name="icon">
+    <iconset resource="../fabaria.qrc">
+     <normaloff>:/images/listino.png</normaloff>:/images/listino.png</iconset>
+   </property>
+   <property name="text">
+    <string>Anagrafica &amp;listini</string>
+   </property>
+  </action>
+  <action name="actionGestione_ordini">
+   <property name="icon">
+    <iconset resource="../fabaria.qrc">
+     <normaloff>:/images/ordine.png</normaloff>:/images/ordine.png</iconset>
+   </property>
+   <property name="text">
+    <string>Gestione &amp;ordini</string>
+   </property>
+  </action>
+  <action name="actionGestione_DDT">
+   <property name="icon">
+    <iconset resource="../fabaria.qrc">
+     <normaloff>:/images/ddt.png</normaloff>:/images/ddt.png</iconset>
+   </property>
+   <property name="text">
+    <string>G&amp;estione DDT</string>
+   </property>
+  </action>
+  <action name="actionAggiorna_database">
+   <property name="icon">
+    <iconset resource="../fabaria.qrc">
+     <normaloff>:/images/system-software-update.png</normaloff>:/images/system-software-update.png</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;Aggiorna database</string>
+   </property>
+  </action>
+  <action name="actionVisualizza_storico_email">
+   <property name="icon">
+    <iconset resource="../fabaria.qrc">
+     <normaloff>:/images/invio_mail.png</normaloff>:/images/invio_mail.png</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;Visualizza storico email</string>
+   </property>
+  </action>
+  <action name="actionRicerca_aggiornamento">
+   <property name="icon">
+    <iconset resource="../fabaria.qrc">
+     <normaloff>:/images/system-software-update.png</normaloff>:/images/system-software-update.png</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;Ricerca aggiornamento</string>
+   </property>
+  </action>
+  <action name="actionVisualizza_statitiche">
+   <property name="icon">
+    <iconset resource="../fabaria.qrc">
+     <normaloff>:/images/torta.png</normaloff>:/images/torta.png</iconset>
+   </property>
+   <property name="text">
+    <string>V&amp;isualizza statitiche</string>
+   </property>
+  </action>
+  <action name="actionRegistro_iva">
+   <property name="icon">
+    <iconset resource="../fabaria.qrc">
+     <normaloff>:/images/iva.png</normaloff>:/images/iva.png</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;Registro iva</string>
+   </property>
+  </action>
+  <action name="actionAnagrafica_agenti">
+   <property name="icon">
+    <iconset resource="../fabaria.qrc">
+     <normaloff>:/images/system-users.png</normaloff>:/images/system-users.png</iconset>
+   </property>
+   <property name="text">
+    <string>Anag&amp;rafica agenti</string>
+   </property>
+  </action>
+  <action name="actionSituazione_agenti">
+   <property name="icon">
+    <iconset resource="../fabaria.qrc">
+     <normaloff>:/images/system-users.png</normaloff>:/images/system-users.png</iconset>
+   </property>
+   <property name="text">
+    <string>Sit&amp;uazione agenti</string>
+   </property>
+  </action>
+  <action name="actionSituazione_agenti_2">
+   <property name="icon">
+    <iconset resource="../fabaria.qrc">
+     <normaloff>:/images/agenti.png</normaloff>:/images/agenti.png</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;Situazione agenti</string>
+   </property>
+  </action>
+  <action name="actionBackup_e_ripristino_con_DropBox">
+   <property name="icon">
+    <iconset resource="../fabaria.qrc">
+     <normaloff>:/images/dropbox.png</normaloff>:/images/dropbox.png</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;Backup e ripristino con DropBox</string>
+   </property>
+  </action>
+  <action name="actionSeleziona_azienda">
+   <property name="icon">
+    <iconset resource="../fabaria.qrc">
+     <normaloff>:/images/azienda.png</normaloff>:/images/azienda.png</iconset>
+   </property>
+   <property name="text">
+    <string>S&amp;eleziona azienda</string>
+   </property>
+  </action>
+  <action name="actionCrea_magazzino">
+   <property name="icon">
+    <iconset resource="../fabaria.qrc">
+     <normaloff>:/images/pacco.png</normaloff>:/images/pacco.png</iconset>
+   </property>
+   <property name="text">
+    <string>Crea &amp;magazzino</string>
+   </property>
+  </action>
+  <action name="actionSeleziona_magazzino">
+   <property name="icon">
+    <iconset resource="../fabaria.qrc">
+     <normaloff>:/images/pacco.png</normaloff>:/images/pacco.png</iconset>
+   </property>
+   <property name="text">
+    <string>S&amp;eleziona magazzino</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <tabstops>
+  <tabstop>tabWidget</tabstop>
+  <tabstop>install_plugin</tabstop>
+  <tabstop>about_luxury_2</tabstop>
+  <tabstop>about_qt_2</tabstop>
+  <tabstop>agg_button</tabstop>
+ </tabstops>
+ <resources>
+  <include location="../../backup_restore_db/images.qrc"/>
+  <include location="../fabaria.qrc"/>
+  <include location="../../../../fastass/fastass/fastass/fabaria.qrc"/>
+ </resources>
+ <connections/>
+</ui>

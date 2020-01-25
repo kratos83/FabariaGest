@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/backup_restor.png</file>
+        <file>images/dialog-close.png</file>
+        <file>images/vcs_add.png</file>
+        <file>images/go-next.png</file>
+        <file>qss/style.qss</file>
+        <file>installdb/install_db.sql</file>
+        <file>updatedb/update_db.sql</file>
+    </qresource>
+</RCC>

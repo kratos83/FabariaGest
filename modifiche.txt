@@ -1,0 +1,12 @@
+1)FABARIA_TRANSLATE(ok)
+2) CARICO E SCARICO MAGAZZINO DARE LA POSSIBILITÀ DI MODIFICARE
+3)METTERE LINGUA SU PREFERENZE(ok)
+4) FAR FARE TRADUZIONE AUTOMATICA(ok)
+5) STAMPA HTML(articoli,agenti,banche,carico_magazzino)
+6) SALVARE LE IMPOSTAZIONI IN SQL(sono arrivato a cod_fisc)
+7) SALVARE LA CONFIGURAZIONE IN SQL (solo tabella completata, da fare il resto)
+8) creazione databasesql(ok)
+9) Nuovo SplashScreen(ok)
+10) Log FabariaGest in SQL(ok), manca solo vedere i log tramite Gui
+11) modificare in pref la configurazione del database(ok)
+12)sistemare databasesql(ok)

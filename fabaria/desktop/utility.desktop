@@ -1,0 +1,22 @@
+[Desktop Entry]
+Categories=Application;Office
+Comment[it]=Utility ripristino FabariaGest
+Comment=Utility ripristino FabariaGest
+Encoding=UTF-8
+Exec=/opt/fabaria_gest/backup_restore
+GenericName[it]=
+GenericName=
+Icon=/opt/fabaria_gest/svn-commit.png
+MimeType=
+Name[it]=Utility ripristino FabariaGest
+Name=Fabaria
+Name[it_IT]=Utility ripristino FabariaGest
+Path=/opt/fabaria_gest
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+Type=Application
+X-DBUS-ServiceName=
+X-DBUS-StartupType=
+X-KDE-SubstituteUID=false
+X-KDE-Username=

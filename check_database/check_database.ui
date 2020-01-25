@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>check_database</class>
+ <widget class="QDialog" name="check_database">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>574</width>
+    <height>599</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>574</width>
+    <height>599</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>574</width>
+    <height>599</height>
+   </size>
+  </property>
+  <property name="sizeIncrement">
+   <size>
+    <width>574</width>
+    <height>599</height>
+   </size>
+  </property>
+  <property name="baseSize">
+   <size>
+    <width>574</width>
+    <height>599</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>check_database</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_2">
+   <item row="0" column="1">
+    <widget class="QGroupBox" name="groupBox">
+     <property name="title">
+      <string/>
+     </property>
+     <layout class="QGridLayout" name="gridLayout_3">
+      <item row="0" column="0">
+       <widget class="QTableView" name="tableView"/>
+      </item>
+      <item row="1" column="0">
+       <layout class="QGridLayout" name="gridLayout">
+        <item row="1" column="0">
+         <spacer name="horizontalSpacer">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>175</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item row="1" column="1">
+         <widget class="QPushButton" name="analize_db">
+          <property name="text">
+           <string>Analizza Database</string>
+          </property>
+          <property name="icon">
+           <iconset resource="../fabaria/fabaria.qrc">
+            <normaloff>:/images/analizza.png</normaloff>:/images/analizza.png</iconset>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="2">
+         <widget class="QPushButton" name="correct_db">
+          <property name="text">
+           <string>Correggi Database</string>
+          </property>
+          <property name="icon">
+           <iconset resource="../fabaria/fabaria.qrc">
+            <normaloff>:/images/ripristina.png</normaloff>:/images/ripristina.png</iconset>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="3">
+         <widget class="QPushButton" name="chiudi">
+          <property name="text">
+           <string>Chiudi</string>
+          </property>
+          <property name="icon">
+           <iconset resource="../fabaria/fabaria.qrc">
+            <normaloff>:/images/dialog-close.png</normaloff>:/images/dialog-close.png</iconset>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="0" colspan="4">
+         <widget class="QLabel" name="esito">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="../fabaria/fabaria.qrc"/>
+ </resources>
+ <connections/>
+</ui>
