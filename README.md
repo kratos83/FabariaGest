@@ -1,5 +1,6 @@
 FabariaGest 2.0
 =========
+(C) Copyright 2010 Angelo Scarnà. Tutti diritti riservati.
 
 Software per la gestione di aziende
 ------------------------------------------------------------------------
@@ -42,7 +43,7 @@ cd fabariagest-2.0
 Compilare con le Qt in versione 5 e
 eseguire il seguente comando
 
-cmake -DCMAKE_INSTALL_PREFIX=/opt/fabaria_gest -DCMAKE_INSTALL_LIBDIR=/opt/fabaria_gest/lib
+cmake -DCMAKE_INSTALL_PREFIX=/opt/FabariaGest -DCMAKE_INSTALL_LIBDIR=/opt/FabariaGest/lib
 
 make-j5
 
